@@ -1,0 +1,1688 @@
+[2022-04-10 21:46:56,322] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-10 21:47:05,565] Pre-condition - step 02: Khởi tạo page search
+[2022-04-10 21:47:05,721] Search Empty Data - step 01: Click to link search on footer
+[2022-04-10 21:47:06,771] Search Empty Data - step 02: Click button search
+[2022-04-10 21:47:07,764] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-10 21:47:07,907]  -------------------------- PASSED -------------------------- 
+[2022-04-10 21:47:08,095] OS name = windows 10
+[2022-04-10 21:47:08,104] Driver instance name = chromedriver: chrome on windows (a2d0159912719b379e35cc8893a6b139)
+[2022-04-10 22:20:12,748] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-10 22:20:18,676] Pre-condition - step 02: Khởi tạo page search
+[2022-04-10 22:20:18,803] Search Empty Data - step 01: Click to link search on footer
+[2022-04-10 22:20:19,673] Search Empty Data - step 02: Click button search
+[2022-04-10 22:20:20,347] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-10 22:20:20,426]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:20:20,606] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-10 22:20:21,322] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-10 22:20:41,635] Search Data Relative - step 01: Click to link search on footer
+[2022-04-10 22:20:42,420] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-10 22:20:52,977] OS name = windows 10
+[2022-04-10 22:20:52,978] Driver instance name = chromedriver: chrome on windows (94e9135affcf1e66cc1188ba02a5da6c)
+[2022-04-10 22:20:52,998] no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GNVB183', ip: '192.168.16.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\PC\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60306}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94e9135affcf1e66cc1188ba02a5da6c
+[2022-04-10 22:21:43,400] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-10 22:21:50,055] Pre-condition - step 02: Khởi tạo page search
+[2022-04-10 22:21:50,201] Search Empty Data - step 01: Click to link search on footer
+[2022-04-10 22:21:51,758] Search Empty Data - step 02: Click button search
+[2022-04-10 22:21:52,394] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-10 22:21:52,473]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:21:52,710] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-10 22:21:53,314] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-10 22:21:53,528] Search Data Not Existing - step 03: Click button search
+[2022-04-10 22:21:54,110] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-10 22:21:54,199]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:21:54,222] Search Data Relative - step 01: Click to link search on footer
+[2022-04-10 22:21:54,834] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-10 22:21:55,013] Search Data Relative - step 03: Click button search
+[2022-04-10 22:21:55,739] Search Data Relative - step 04: Verify data is display
+[2022-04-10 22:21:55,884]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:21:55,888] OS name = windows 10
+[2022-04-10 22:21:55,888] Driver instance name = chromedriver: chrome on windows (7b2723980cc635ea221c887d550a700c)
+[2022-04-10 22:25:06,858] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-10 22:25:11,551] Pre-condition - step 02: Khởi tạo page search
+[2022-04-10 22:25:11,670] Search Empty Data - step 01: Click to link search on footer
+[2022-04-10 22:25:13,148] Search Empty Data - step 02: Click button search
+[2022-04-10 22:25:13,819] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-10 22:25:13,899]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:25:14,058] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-10 22:25:14,907] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-10 22:25:15,101] Search Data Not Existing - step 03: Click button search
+[2022-04-10 22:25:15,710] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-10 22:25:15,790]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:25:15,812] Search Data Relative - step 01: Click to link search on footer
+[2022-04-10 22:25:17,017] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-10 22:25:17,193] Search Data Relative - step 03: Click button search
+[2022-04-10 22:25:18,228] Search Data Relative - step 04: Verify data is display
+[2022-04-10 22:25:18,347]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:25:18,354] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-10 22:25:18,920] Search Absolute - step 02: Enter to search with data not existing 'Lenovo Thinkpad X1 Carbon Laptop'
+[2022-04-10 22:25:19,138] Search Absolute - step 03: Click button search
+[2022-04-10 22:25:19,823] Search Absolute - step 04: Verify data is display
+[2022-04-10 22:25:19,886]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:25:19,890] OS name = windows 10
+[2022-04-10 22:25:19,890] Driver instance name = chromedriver: chrome on windows (7a1b3ed529362938834dbbe9ce534a9b)
+[2022-04-10 22:26:11,493] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-10 22:26:16,787] Pre-condition - step 02: Khởi tạo page search
+[2022-04-10 22:26:16,905] Search Empty Data - step 01: Click to link search on footer
+[2022-04-10 22:26:17,753] Search Empty Data - step 02: Click button search
+[2022-04-10 22:26:18,510] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-10 22:26:18,597]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:26:18,754] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-10 22:26:19,406] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-10 22:26:19,605] Search Data Not Existing - step 03: Click button search
+[2022-04-10 22:26:20,199] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-10 22:26:20,280]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:26:20,304] Search Data Relative - step 01: Click to link search on footer
+[2022-04-10 22:26:20,902] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-10 22:26:21,049] Search Data Relative - step 03: Click button search
+[2022-04-10 22:26:21,884] Search Data Relative - step 04: Verify data is display
+[2022-04-10 22:26:22,007]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:26:22,015] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-10 22:26:22,667] Search Absolute - step 02: Enter to search with data not existing 'Lenovo Thinkpad X1 Carbon Laptop'
+[2022-04-10 22:26:22,917] Search Absolute - step 03: Click button search
+[2022-04-10 22:26:23,571] Search Absolute - step 04: Verify data is display
+[2022-04-10 22:26:23,634]  -------------------------- PASSED -------------------------- 
+[2022-04-10 22:26:23,639] OS name = windows 10
+[2022-04-10 22:26:23,639] Driver instance name = chromedriver: chrome on windows (db499a344039bf90c90c27db9286fe21)
+[2022-04-11 11:07:04,125] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 11:07:09,384] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 11:07:09,399] Search Empty Data - step 01: Click to link search on footer
+[2022-04-11 11:07:10,242] Search Empty Data - step 02: Click button search
+[2022-04-11 11:07:10,884] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-11 11:07:10,957]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:07:10,957] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-11 11:07:11,573] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-11 11:07:11,786] Search Data Not Existing - step 03: Click button search
+[2022-04-11 11:07:12,422] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-11 11:07:12,507]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:07:12,507] Search Data Relative - step 01: Click to link search on footer
+[2022-04-11 11:07:13,135] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-11 11:07:13,294] Search Data Relative - step 03: Click button search
+[2022-04-11 11:07:14,051] Search Data Relative - step 04: Verify data is display
+[2022-04-11 11:07:14,142]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:07:14,142] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-11 11:07:14,757] Search Absolute - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:07:14,934] Search Absolute - step 03: Click button search
+[2022-04-11 11:07:15,567] Search Absolute - step 04: Verify data is display
+[2022-04-11 11:07:15,642]  -------------------------- FAILED -------------------------- 
+[2022-04-11 11:07:15,823] Advanced Search Categories - step 01: Click to link search on footer
+[2022-04-11 11:07:16,459] Advanced Search Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:07:16,674] Advanced Search Categories - step 03: Checked advanced search
+[2022-04-11 11:07:16,807] Advanced Search Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:07:27,168] Advanced Search Sub Categories - step 01: Click to link search on footer
+[2022-04-11 11:07:27,753] Advanced Search Sub Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:07:27,942] Advanced Search Sub Categories - step 03: Checked advanced search
+[2022-04-11 11:07:28,071] Advanced Search Sub Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:07:38,682] Advanced Search Correct Manufacturer - step 01: Click to link search on footer
+[2022-04-11 11:07:39,285] Advanced Search Correct Manufacturer - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:07:39,477] Advanced Search Correct Manufacturer - step 03: Checked advanced search
+[2022-04-11 11:07:39,614] Advanced Search Correct Manufacturer - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:07:50,106] Advanced Search Correct Manufacturer - step 01: Click to link search on footer
+[2022-04-11 11:07:50,727] Advanced Search Correct Manufacturer - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:07:50,910] Advanced Search Correct Manufacturer - step 03: Checked advanced search
+[2022-04-11 11:07:51,056] Advanced Search Correct Manufacturer - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:08:01,588] OS name = windows 10
+[2022-04-11 11:08:01,588] Driver instance name = chromedriver: chrome on windows (2059696048e2b60640fdb221a62d11f0)
+[2022-04-11 11:15:28,850] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 11:15:33,271] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 11:15:33,283] Search Empty Data - step 01: Click to link search on footer
+[2022-04-11 11:15:34,533] Search Empty Data - step 02: Click button search
+[2022-04-11 11:15:35,146] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-11 11:15:35,223]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:15:35,225] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-11 11:15:36,070] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-11 11:15:36,289] Search Data Not Existing - step 03: Click button search
+[2022-04-11 11:15:36,901] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-11 11:15:36,985]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:15:36,986] Search Data Relative - step 01: Click to link search on footer
+[2022-04-11 11:15:37,600] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-11 11:15:37,759] Search Data Relative - step 03: Click button search
+[2022-04-11 11:15:38,635] Search Data Relative - step 04: Verify data is display
+[2022-04-11 11:15:38,774]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:15:38,775] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-11 11:15:39,374] Search Absolute - step 02: Enter to search with data not existing 'Lenovo Thinkpad X1 Carbon Laptop'
+[2022-04-11 11:15:39,614] Search Absolute - step 03: Click button search
+[2022-04-11 11:15:40,255] Search Absolute - step 04: Verify data is display
+[2022-04-11 11:15:40,327]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:15:40,328] Advanced Search Categories - step 01: Click to link search on footer
+[2022-04-11 11:15:40,913] Advanced Search Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:15:41,091] Advanced Search Categories - step 03: Checked advanced search
+[2022-04-11 11:15:41,244] Advanced Search Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:15:41,416] OS name = windows 10
+[2022-04-11 11:15:41,417] Driver instance name = chromedriver: chrome on windows (ab4730772746288e6915b3784d20d48f)
+[2022-04-11 11:16:54,494] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 11:16:57,943] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 11:16:57,951] Search Empty Data - step 01: Click to link search on footer
+[2022-04-11 11:16:58,741] Search Empty Data - step 02: Click button search
+[2022-04-11 11:16:59,369] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-11 11:16:59,473]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:16:59,476] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-11 11:17:00,089] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-11 11:17:00,290] Search Data Not Existing - step 03: Click button search
+[2022-04-11 11:17:00,871] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-11 11:17:00,942]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:17:00,943] Search Data Relative - step 01: Click to link search on footer
+[2022-04-11 11:17:01,522] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-11 11:17:01,673] Search Data Relative - step 03: Click button search
+[2022-04-11 11:17:02,356] Search Data Relative - step 04: Verify data is display
+[2022-04-11 11:17:02,458]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:17:02,459] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-11 11:17:03,252] Search Absolute - step 02: Enter to search with data not existing 'Lenovo Thinkpad X1 Carbon Laptop'
+[2022-04-11 11:17:03,488] Search Absolute - step 03: Click button search
+[2022-04-11 11:17:04,095] Search Absolute - step 04: Verify data is display
+[2022-04-11 11:17:04,176]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:17:04,177] Advanced Search Categories - step 01: Click to link search on footer
+[2022-04-11 11:17:04,789] Advanced Search Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:17:04,996] Advanced Search Categories - step 03: Checked advanced search
+[2022-04-11 11:17:05,177] Advanced Search Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:17:05,379] OS name = windows 10
+[2022-04-11 11:17:05,379] Driver instance name = chromedriver: chrome on windows (66d18e91ef1ff4a4cb78a1d8963b4b52)
+[2022-04-11 11:19:14,711] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 11:19:19,997] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 11:19:20,007] Search Empty Data - step 01: Click to link search on footer
+[2022-04-11 11:19:20,818] Search Empty Data - step 02: Click button search
+[2022-04-11 11:19:21,478] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-11 11:19:21,552]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:19:21,554] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-11 11:19:22,118] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-11 11:19:22,326] Search Data Not Existing - step 03: Click button search
+[2022-04-11 11:19:22,933] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-11 11:19:23,015]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:19:23,016] Search Data Relative - step 01: Click to link search on footer
+[2022-04-11 11:19:23,617] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-11 11:19:23,772] Search Data Relative - step 03: Click button search
+[2022-04-11 11:19:24,414] Search Data Relative - step 04: Verify data is display
+[2022-04-11 11:19:24,504]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:19:24,505] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-11 11:19:25,089] Search Absolute - step 02: Enter to search with data not existing 'Lenovo Thinkpad X1 Carbon Laptop'
+[2022-04-11 11:19:25,308] Search Absolute - step 03: Click button search
+[2022-04-11 11:19:25,987] Search Absolute - step 04: Verify data is display
+[2022-04-11 11:19:26,071]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:19:26,072] Advanced Search Categories - step 01: Click to link search on footer
+[2022-04-11 11:19:26,655] Advanced Search Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:19:26,846] Advanced Search Categories - step 03: Checked advanced search
+[2022-04-11 11:19:26,994] Advanced Search Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:19:27,124] Advanced Search Categories - step 05: Automatically search sub categories: Unchecked
+[2022-04-11 11:19:27,194] Advanced Search Categories - step 06: Click button search
+[2022-04-11 11:19:27,842] Advanced Search Categories - step 07: Verify data is display
+[2022-04-11 11:19:27,920]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:19:27,921] Advanced Search Sub Categories - step 01: Click to link search on footer
+[2022-04-11 11:19:28,515] Advanced Search Sub Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:19:28,688] Advanced Search Sub Categories - step 03: Checked advanced search
+[2022-04-11 11:19:28,816] Advanced Search Sub Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:19:28,947] Advanced Search Sub Categories - step 05: Automatically search sub categories: checked
+[2022-04-11 11:19:29,072] Advanced Search Sub Categories - step 06: Click button search
+[2022-04-11 11:19:29,741] Advanced Search Sub Categories - step 07: Verify data is display
+[2022-04-11 11:19:29,795]  -------------------------- FAILED -------------------------- 
+[2022-04-11 11:19:29,965] OS name = windows 10
+[2022-04-11 11:19:29,965] Driver instance name = chromedriver: chrome on windows (1c73725f927ce3df18916a137b662e81)
+[2022-04-11 11:24:43,244] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 11:24:47,486] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 11:24:47,500] Search Empty Data - step 01: Click to link search on footer
+[2022-04-11 11:24:49,761] Search Empty Data - step 02: Click button search
+[2022-04-11 11:24:50,325] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-11 11:24:50,414]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:24:50,418] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-11 11:24:50,946] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-11 11:24:51,141] Search Data Not Existing - step 03: Click button search
+[2022-04-11 11:24:51,691] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-11 11:24:51,777]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:24:51,778] Search Data Relative - step 01: Click to link search on footer
+[2022-04-11 11:24:52,304] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-11 11:24:52,457] Search Data Relative - step 03: Click button search
+[2022-04-11 11:24:53,907] Search Data Relative - step 04: Verify data is display
+[2022-04-11 11:24:54,085]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:24:54,086] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-11 11:24:54,601] Search Absolute - step 02: Enter to search with data not existing 'Lenovo Thinkpad X1 Carbon Laptop'
+[2022-04-11 11:24:54,835] Search Absolute - step 03: Click button search
+[2022-04-11 11:24:55,498] Search Absolute - step 04: Verify data is display
+[2022-04-11 11:24:55,568]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:24:55,569] Advanced Search Categories - step 01: Click to link search on footer
+[2022-04-11 11:24:56,109] Advanced Search Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:24:56,293] Advanced Search Categories - step 03: Checked advanced search
+[2022-04-11 11:24:56,427] Advanced Search Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:24:56,578] Advanced Search Categories - step 05: Automatically search sub categories: Unchecked
+[2022-04-11 11:24:56,649] Advanced Search Categories - step 06: Click button search
+[2022-04-11 11:24:57,247] Advanced Search Categories - step 07: Verify data is display
+[2022-04-11 11:24:57,329]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:24:57,330] Advanced Search Sub Categories - step 01: Click to link search on footer
+[2022-04-11 11:24:57,847] Advanced Search Sub Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:24:58,062] Advanced Search Sub Categories - step 03: Checked advanced search
+[2022-04-11 11:24:58,208] Advanced Search Sub Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:24:58,338] Advanced Search Sub Categories - step 05: Automatically search sub categories: checked
+[2022-04-11 11:24:58,465] Advanced Search Sub Categories - step 06: Click button search
+[2022-04-11 11:24:59,040] Advanced Search Sub Categories - step 07: Verify data is display
+[2022-04-11 11:24:59,293] Advanced Search Correct Manufacturer - step 01: Click to link search on footer
+[2022-04-11 11:24:59,829] Advanced Search Correct Manufacturer - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:25:00,039] Advanced Search Correct Manufacturer - step 03: Checked advanced search
+[2022-04-11 11:25:00,190] Advanced Search Correct Manufacturer - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:25:00,331] Advanced Search Correct Manufacturer - step 05: Automatically search sub categories: checked
+[2022-04-11 11:25:00,462] Advanced Search Correct Manufacturer - step 06: Manufacturer -> Selected Item 'HP' 
+[2022-04-11 11:25:00,610] Advanced Search Correct Manufacturer - step 07: Click button search
+[2022-04-11 11:25:01,276] Advanced Search Correct Manufacturer - step 08: Verify data is display
+[2022-04-11 11:25:01,351]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:25:01,352] Advanced Search Correct Manufacturer - step 01: Click to link search on footer
+[2022-04-11 11:25:01,893] Advanced Search Correct Manufacturer - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:25:02,067] Advanced Search Correct Manufacturer - step 03: Checked advanced search
+[2022-04-11 11:25:02,199] Advanced Search Correct Manufacturer - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:25:02,327] Advanced Search Correct Manufacturer - step 05: Automatically search sub categories: checked
+[2022-04-11 11:25:02,454] Advanced Search Correct Manufacturer - step 06: Manufacturer -> Selected Item 'Apple' 
+[2022-04-11 11:25:02,577] Advanced Search Correct Manufacturer - step 07: Click button search
+[2022-04-11 11:25:03,293] Advanced Search Correct Manufacturer - step 08: Verify data is display
+[2022-04-11 11:25:03,573] OS name = windows 10
+[2022-04-11 11:25:03,573] Driver instance name = chromedriver: chrome on windows (afab4f7443fff99bddf17a9b4030d2a9)
+[2022-04-11 11:36:12,102] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 11:36:16,991] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 11:36:17,002] Search Empty Data - step 01: Click to link search on footer
+[2022-04-11 11:36:17,698] Search Empty Data - step 02: Click button search
+[2022-04-11 11:36:18,268] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-11 11:36:18,362]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:36:18,364] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-11 11:36:18,882] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-11 11:36:19,092] Search Data Not Existing - step 03: Click button search
+[2022-04-11 11:36:19,631] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-11 11:36:19,715]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:36:19,716] Search Data Relative - step 01: Click to link search on footer
+[2022-04-11 11:36:20,228] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-11 11:36:20,360] Search Data Relative - step 03: Click button search
+[2022-04-11 11:36:20,992] Search Data Relative - step 04: Verify data is display
+[2022-04-11 11:36:21,099]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:36:21,100] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-11 11:36:21,623] Search Absolute - step 02: Enter to search with data not existing 'Lenovo Thinkpad X1 Carbon Laptop'
+[2022-04-11 11:36:21,829] Search Absolute - step 03: Click button search
+[2022-04-11 11:36:22,412] Search Absolute - step 04: Verify data is display
+[2022-04-11 11:36:22,469]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:36:22,470] Advanced Search Categories - step 01: Click to link search on footer
+[2022-04-11 11:36:22,989] Advanced Search Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:36:23,155] Advanced Search Categories - step 03: Checked advanced search
+[2022-04-11 11:36:23,304] Advanced Search Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:36:23,453] Advanced Search Categories - step 05: Automatically search sub categories: Unchecked
+[2022-04-11 11:36:23,542] Advanced Search Categories - step 06: Click button search
+[2022-04-11 11:36:24,118] Advanced Search Categories - step 07: Verify data is display
+[2022-04-11 11:36:24,206]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:36:24,207] Advanced Search Sub Categories - step 01: Click to link search on footer
+[2022-04-11 11:36:24,726] Advanced Search Sub Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:36:24,916] Advanced Search Sub Categories - step 03: Checked advanced search
+[2022-04-11 11:36:25,066] Advanced Search Sub Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:36:25,188] Advanced Search Sub Categories - step 05: Automatically search sub categories: checked
+[2022-04-11 11:36:25,313] Advanced Search Sub Categories - step 06: Click button search
+[2022-04-11 11:36:25,900] Advanced Search Sub Categories - step 07: Verify data is display
+[2022-04-11 11:36:25,967] Advanced Search Correct Manufacturer - step 01: Click to link search on footer
+[2022-04-11 11:36:26,490] Advanced Search Correct Manufacturer - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:36:26,664] Advanced Search Correct Manufacturer - step 03: Checked advanced search
+[2022-04-11 11:36:26,800] Advanced Search Correct Manufacturer - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:36:26,920] Advanced Search Correct Manufacturer - step 05: Automatically search sub categories: checked
+[2022-04-11 11:36:27,045] Advanced Search Correct Manufacturer - step 06: Manufacturer -> Selected Item 'HP' 
+[2022-04-11 11:36:27,167] Advanced Search Correct Manufacturer - step 07: Click button search
+[2022-04-11 11:36:27,735] Advanced Search Correct Manufacturer - step 08: Verify data is display
+[2022-04-11 11:36:27,791]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:36:27,792] Advanced Search Correct Manufacturer - step 01: Click to link search on footer
+[2022-04-11 11:36:28,318] Advanced Search Correct Manufacturer - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:36:28,492] Advanced Search Correct Manufacturer - step 03: Checked advanced search
+[2022-04-11 11:36:28,622] Advanced Search Correct Manufacturer - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:36:28,756] Advanced Search Correct Manufacturer - step 05: Automatically search sub categories: checked
+[2022-04-11 11:36:28,879] Advanced Search Correct Manufacturer - step 06: Manufacturer -> Selected Item 'Apple' 
+[2022-04-11 11:36:29,003] Advanced Search Correct Manufacturer - step 07: Click button search
+[2022-04-11 11:36:29,582] Advanced Search Correct Manufacturer - step 08: Verify data is display
+[2022-04-11 11:36:29,642] OS name = windows 10
+[2022-04-11 11:36:29,642] Driver instance name = chromedriver: chrome on windows (6c0ff6d3d92d037a8fb6c44bedd09075)
+[2022-04-11 11:43:11,686] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 11:43:16,198] Pre-condition - step 02: Kh?i t?o page search
+[2022-04-11 11:43:16,214] Search Empty Data - step 01: Click to link search on footer
+[2022-04-11 11:43:17,008] Search Empty Data - step 02: Click button search
+[2022-04-11 11:43:17,605] Search Empty Data - step 03: Verify message waning 'Search term minimum length is 3 characters' is display
+[2022-04-11 11:43:17,694]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:43:17,696] Search Data Not Existing - step 01: Click to link search on footer
+[2022-04-11 11:43:18,335] Search Data Not Existing - step 02: Enter to search with data not existing "Markbook pro 2050" 
+[2022-04-11 11:43:18,528] Search Data Not Existing - step 03: Click button search
+[2022-04-11 11:43:19,137] Search Data Not Existing - step 04: Verify message 'No products were found that matched your criteria.' is display
+[2022-04-11 11:43:19,197]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:43:19,198] Search Data Relative - step 01: Click to link search on footer
+[2022-04-11 11:43:19,839] Search Data Relative - step 02: Enter to search with data relative Lenovo'
+[2022-04-11 11:43:19,999] Search Data Relative - step 03: Click button search
+[2022-04-11 11:43:20,639] Search Data Relative - step 04: Verify data is display
+[2022-04-11 11:43:20,737]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:43:20,737] Search Data Absolute - step 01: Click to link search on footer
+[2022-04-11 11:43:21,282] Search Absolute - step 02: Enter to search with data not existing 'Lenovo Thinkpad X1 Carbon Laptop'
+[2022-04-11 11:43:21,488] Search Absolute - step 03: Click button search
+[2022-04-11 11:43:22,140] Search Absolute - step 04: Verify data is display
+[2022-04-11 11:43:22,215]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:43:22,216] Advanced Search Categories - step 01: Click to link search on footer
+[2022-04-11 11:43:22,783] Advanced Search Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:43:22,948] Advanced Search Categories - step 03: Checked advanced search
+[2022-04-11 11:43:23,101] Advanced Search Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:43:23,234] Advanced Search Categories - step 05: Automatically search sub categories: Unchecked
+[2022-04-11 11:43:23,305] Advanced Search Categories - step 06: Click button search
+[2022-04-11 11:43:23,914] Advanced Search Categories - step 07: Verify data is display
+[2022-04-11 11:43:23,978]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:43:23,979] Advanced Search Sub Categories - step 01: Click to link search on footer
+[2022-04-11 11:43:24,751] Advanced Search Sub Categories - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:43:24,934] Advanced Search Sub Categories - step 03: Checked advanced search
+[2022-04-11 11:43:25,066] Advanced Search Sub Categories - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:43:25,193] Advanced Search Sub Categories - step 05: Automatically search sub categories: checked
+[2022-04-11 11:43:25,319] Advanced Search Sub Categories - step 06: Click button search
+[2022-04-11 11:43:26,038] Advanced Search Sub Categories - step 07: Verify data is display
+[2022-04-11 11:43:26,114] Advanced Search Correct Manufacturer - step 01: Click to link search on footer
+[2022-04-11 11:43:26,681] Advanced Search Correct Manufacturer - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:43:26,853] Advanced Search Correct Manufacturer - step 03: Checked advanced search
+[2022-04-11 11:43:26,992] Advanced Search Correct Manufacturer - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:43:27,121] Advanced Search Correct Manufacturer - step 05: Automatically search sub categories: checked
+[2022-04-11 11:43:27,253] Advanced Search Correct Manufacturer - step 06: Manufacturer -> Selected Item 'HP' 
+[2022-04-11 11:43:27,371] Advanced Search Correct Manufacturer - step 07: Click button search
+[2022-04-11 11:43:27,970] Advanced Search Correct Manufacturer - step 08: Verify data is display
+[2022-04-11 11:43:28,041]  -------------------------- PASSED -------------------------- 
+[2022-04-11 11:43:28,042] Advanced Search Correct Manufacturer - step 01: Click to link search on footer
+[2022-04-11 11:43:28,574] Advanced Search Correct Manufacturer - step 02: Enter to search with data not existing 'Apple Macbook Pro'
+[2022-04-11 11:43:28,767] Advanced Search Correct Manufacturer - step 03: Checked advanced search
+[2022-04-11 11:43:28,899] Advanced Search Correct Manufacturer - step 04: Categories -> Selected Item 'Computers' 
+[2022-04-11 11:43:29,049] Advanced Search Correct Manufacturer - step 05: Automatically search sub categories: checked
+[2022-04-11 11:43:29,174] Advanced Search Correct Manufacturer - step 06: Manufacturer -> Selected Item 'Apple' 
+[2022-04-11 11:43:29,299] Advanced Search Correct Manufacturer - step 07: Click button search
+[2022-04-11 11:43:29,893] Advanced Search Correct Manufacturer - step 08: Verify data is display
+[2022-04-11 11:43:29,968] OS name = windows 10
+[2022-04-11 11:43:29,968] Driver instance name = chromedriver: chrome on windows (f8e329f5894cbb89716643548d8d2887)
+[2022-04-11 15:35:44,655] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 15:35:49,613] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 15:35:49,615] Register - step 01: Navigate to 'Register' page
+[2022-04-11 15:35:50,426] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 15:35:50,610] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 15:35:50,781] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto7333@edu.vn'
+[2022-04-11 15:35:50,966] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 15:35:51,136] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 15:35:51,307] Register - step 07: Click to 'Register' button
+[2022-04-11 15:38:18,756] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 15:38:23,381] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 15:38:23,383] Register - step 01: Navigate to 'Register' page
+[2022-04-11 15:38:24,132] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 15:38:24,333] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 15:38:24,501] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto6849@edu.vn'
+[2022-04-11 15:38:24,697] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 15:38:24,869] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 15:38:25,009] Register - step 07: Click to 'Register' button
+[2022-04-11 15:38:26,141] Register - step 08: Verify register success message is display
+[2022-04-11 15:38:26,200]  -------------------------- PASSED -------------------------- 
+[2022-04-11 15:38:26,200] Register - step 09: Click to logout link
+[2022-04-11 15:38:27,155] Login Empty Data - step 01: Navigate to 'Login' page
+[2022-04-11 15:38:27,852] Login Empty Data - step 02: Enter to Email textbox with value is ''
+[2022-04-11 15:38:27,994] Login Empty Data - step 03: Enter to Password textbox with value is ''
+[2022-04-11 15:38:28,146] Login Empty Data - step 04: Click to 'Log in' button
+[2022-04-11 15:38:28,261] Login Empty Data - step 05: Verify message error at email
+[2022-04-11 15:38:28,346]  -------------------------- PASSED -------------------------- 
+[2022-04-11 15:38:28,349] Login Invalid Email - step 01: Navigate to 'Login' page
+[2022-04-11 15:38:28,974] Login Invalid Email - step 02: Enter to Email textbox with value is '123@ahshajh#'
+[2022-04-11 15:38:29,154] Login Invalid Email - step 03: Click to 'Log in' button
+[2022-04-11 15:38:29,293] Login Invalid Email - step 04: Verify message error at email
+[2022-04-11 15:38:29,354]  -------------------------- PASSED -------------------------- 
+[2022-04-11 15:38:29,355] Login Email Not Register - step 01: Navigate to 'Login' page
+[2022-04-11 15:38:29,940] Login Email Not Register - step 02: Enter to Email textbox with value is 'auto2033@gmail.com'
+[2022-04-11 15:38:30,101] Login Email Not Register - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 15:38:30,261] Login Email Not Register - step 04: Click to 'Log in' button
+[2022-04-11 15:38:30,823] Login Email Not Register - step 05: Verify login unsuccessful
+[2022-04-11 15:38:30,903] Login Email Registered Password Empty - step 01: Navigate to 'Login' page
+[2022-04-11 15:38:31,496] Login Email Registered Password Empty - step 02: Enter to Email textbox with value is 'giangauto6849@edu.vn'
+[2022-04-11 15:38:31,668] Login Email Registered Password Empty - step 03: Enter to Password textbox with value is ''
+[2022-04-11 15:38:31,811] Login Email Registered Password Empty - step 04: Click to 'Log in' button
+[2022-04-11 15:38:32,360] Login Email Registered Password Empty - step 05: Verify login unsuccessful
+[2022-04-11 15:38:32,424] Login Email Registered Invalid Password - step 01: Navigate to 'Login' page
+[2022-04-11 15:38:32,972] Login Email Registered Invalid Password - step 02: Enter to Email textbox with value is 'giangauto6849@edu.vn'
+[2022-04-11 15:38:33,140] Login Email Registered Invalid Password - step 03: Enter to Password textbox with value is '123444'
+[2022-04-11 15:38:33,307] Login Email Registered Invalid Password - step 04: Click to 'Log in' button
+[2022-04-11 15:38:33,857] Login Email Registered Invalid Password - step 05: Verify login unsuccessful
+[2022-04-11 15:38:33,939] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 15:38:34,512] Login Success - step 02: Enter to Email textbox with value is 'giangauto6849@edu.vn'
+[2022-04-11 15:38:34,679] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 15:38:34,841] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 15:38:35,773] Login Success - step 05: Verify login success
+[2022-04-11 15:38:35,773] Login Success - step 06: Click to 'Log out' link
+[2022-04-11 15:38:36,657] OS name = windows 10
+[2022-04-11 15:38:36,658] Driver instance name = chromedriver: chrome on windows (ce4f68bb180b4fbb39f5e77a292942b4)
+[2022-04-11 16:20:55,368] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 16:20:59,876] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 16:20:59,881] Register - step 01: Navigate to 'Register' page
+[2022-04-11 16:21:00,811] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 16:21:01,009] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 16:21:01,185] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto6889@edu.vn'
+[2022-04-11 16:21:01,365] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 16:21:01,538] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 16:21:01,707] Register - step 07: Click to 'Register' button
+[2022-04-11 16:21:02,969] Register - step 08: Verify register success message is display
+[2022-04-11 16:21:03,043]  -------------------------- PASSED -------------------------- 
+[2022-04-11 16:21:03,043] Register - step 09: Click to logout link
+[2022-04-11 16:21:03,911] Login Empty Data - step 01: Navigate to 'Login' page
+[2022-04-11 16:21:05,018] Login Empty Data - step 02: Enter to Email textbox with value is ''
+[2022-04-11 16:21:05,161] Login Empty Data - step 03: Enter to Password textbox with value is ''
+[2022-04-11 16:21:05,294] Login Empty Data - step 04: Click to 'Log in' button
+[2022-04-11 16:21:05,427] Login Empty Data - step 05: Verify message error at email
+[2022-04-11 16:21:05,497]  -------------------------- PASSED -------------------------- 
+[2022-04-11 16:21:05,500] Login Invalid Email - step 01: Navigate to 'Login' page
+[2022-04-11 16:21:06,037] Login Invalid Email - step 02: Enter to Email textbox with value is '123@ahshajh#'
+[2022-04-11 16:21:06,197] Login Invalid Email - step 03: Click to 'Log in' button
+[2022-04-11 16:21:06,321] Login Invalid Email - step 04: Verify message error at email
+[2022-04-11 16:21:06,388]  -------------------------- PASSED -------------------------- 
+[2022-04-11 16:21:06,389] Login Email Not Register - step 01: Navigate to 'Login' page
+[2022-04-11 16:21:06,878] Login Email Not Register - step 02: Enter to Email textbox with value is 'auto2033@gmail.com'
+[2022-04-11 16:21:07,031] Login Email Not Register - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 16:21:07,196] Login Email Not Register - step 04: Click to 'Log in' button
+[2022-04-11 16:21:07,689] Login Email Not Register - step 05: Verify login unsuccessful
+[2022-04-11 16:21:07,768] Login Email Registered Password Empty - step 01: Navigate to 'Login' page
+[2022-04-11 16:21:08,266] Login Email Registered Password Empty - step 02: Enter to Email textbox with value is 'giangauto6889@edu.vn'
+[2022-04-11 16:21:08,427] Login Email Registered Password Empty - step 03: Enter to Password textbox with value is ''
+[2022-04-11 16:21:08,578] Login Email Registered Password Empty - step 04: Click to 'Log in' button
+[2022-04-11 16:21:09,093] Login Email Registered Password Empty - step 05: Verify login unsuccessful
+[2022-04-11 16:21:09,150] Login Email Registered Invalid Password - step 01: Navigate to 'Login' page
+[2022-04-11 16:21:09,660] Login Email Registered Invalid Password - step 02: Enter to Email textbox with value is 'giangauto6889@edu.vn'
+[2022-04-11 16:21:09,835] Login Email Registered Invalid Password - step 03: Enter to Password textbox with value is '123444'
+[2022-04-11 16:21:09,976] Login Email Registered Invalid Password - step 04: Click to 'Log in' button
+[2022-04-11 16:21:10,486] Login Email Registered Invalid Password - step 05: Verify login unsuccessful
+[2022-04-11 16:21:10,552] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 16:21:11,063] Login Success - step 02: Enter to Email textbox with value is 'giangauto6889@edu.vn'
+[2022-04-11 16:21:11,248] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 16:21:11,389] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 16:21:12,323] Login Success - step 05: Get All cookie login page
+[2022-04-11 16:21:12,338] Login Success - step 06: Verify login success
+[2022-04-11 16:21:12,338] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 16:21:13,253] OS name = windows 10
+[2022-04-11 16:21:13,253] Driver instance name = chromedriver: chrome on windows (c9faad4ce3225868f11256c06872034c)
+[2022-04-11 16:21:14,223] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 16:21:17,394] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 16:21:17,395] Pre-condition - step 03: Set cookie login page
+[2022-04-11 16:21:22,480] Pre-condition - step 04: Click navigate home page
+[2022-04-11 16:21:23,387] Update Customer Info - step 01: Navigate to 'My Account' page
+[2022-04-11 16:21:24,370]  -------------------------- PASSED -------------------------- 
+[2022-04-11 16:21:24,371] OS name = windows 10
+[2022-04-11 16:21:24,371] Driver instance name = chromedriver: chrome on windows (9150aea8f73ae3cea51652b566a71c5c)
+[2022-04-11 17:10:14,406] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 17:10:18,931] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 17:10:18,934] Register - step 01: Navigate to 'Register' page
+[2022-04-11 17:10:19,735] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 17:10:19,940] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 17:10:20,098] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto8727@edu.vn'
+[2022-04-11 17:10:20,297] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 17:10:20,473] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 17:10:20,641] Register - step 07: Click to 'Register' button
+[2022-04-11 17:10:21,569] Register - step 08: Verify register success message is display
+[2022-04-11 17:10:21,653]  -------------------------- PASSED -------------------------- 
+[2022-04-11 17:10:21,653] Register - step 09: Click to logout link
+[2022-04-11 17:10:22,563] Login Empty Data - step 01: Navigate to 'Login' page
+[2022-04-11 17:10:23,330] Login Empty Data - step 02: Enter to Email textbox with value is ''
+[2022-04-11 17:10:23,483] Login Empty Data - step 03: Enter to Password textbox with value is ''
+[2022-04-11 17:10:23,630] Login Empty Data - step 04: Click to 'Log in' button
+[2022-04-11 17:10:23,761] Login Empty Data - step 05: Verify message error at email
+[2022-04-11 17:10:23,864]  -------------------------- PASSED -------------------------- 
+[2022-04-11 17:10:23,867] Login Invalid Email - step 01: Navigate to 'Login' page
+[2022-04-11 17:10:24,527] Login Invalid Email - step 02: Enter to Email textbox with value is '123@ahshajh#'
+[2022-04-11 17:10:24,699] Login Invalid Email - step 03: Click to 'Log in' button
+[2022-04-11 17:10:24,834] Login Invalid Email - step 04: Verify message error at email
+[2022-04-11 17:10:24,899]  -------------------------- PASSED -------------------------- 
+[2022-04-11 17:10:24,900] Login Email Not Register - step 01: Navigate to 'Login' page
+[2022-04-11 17:10:25,430] Login Email Not Register - step 02: Enter to Email textbox with value is 'auto2033@gmail.com'
+[2022-04-11 17:10:25,600] Login Email Not Register - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 17:10:25,754] Login Email Not Register - step 04: Click to 'Log in' button
+[2022-04-11 17:10:26,293] Login Email Not Register - step 05: Verify login unsuccessful
+[2022-04-11 17:10:26,352] Login Email Registered Password Empty - step 01: Navigate to 'Login' page
+[2022-04-11 17:10:26,880] Login Email Registered Password Empty - step 02: Enter to Email textbox with value is 'giangauto8727@edu.vn'
+[2022-04-11 17:10:27,049] Login Email Registered Password Empty - step 03: Enter to Password textbox with value is ''
+[2022-04-11 17:10:27,201] Login Email Registered Password Empty - step 04: Click to 'Log in' button
+[2022-04-11 17:10:27,747] Login Email Registered Password Empty - step 05: Verify login unsuccessful
+[2022-04-11 17:10:27,803] Login Email Registered Invalid Password - step 01: Navigate to 'Login' page
+[2022-04-11 17:10:28,329] Login Email Registered Invalid Password - step 02: Enter to Email textbox with value is 'giangauto8727@edu.vn'
+[2022-04-11 17:10:28,506] Login Email Registered Invalid Password - step 03: Enter to Password textbox with value is '123444'
+[2022-04-11 17:10:28,664] Login Email Registered Invalid Password - step 04: Click to 'Log in' button
+[2022-04-11 17:10:29,206] Login Email Registered Invalid Password - step 05: Verify login unsuccessful
+[2022-04-11 17:10:29,282] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 17:10:29,910] Login Success - step 02: Enter to Email textbox with value is 'giangauto8727@edu.vn'
+[2022-04-11 17:10:30,073] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 17:10:30,223] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 17:10:31,167] Login Success - step 05: Get All cookie login page
+[2022-04-11 17:10:31,184] Login Success - step 06: Verify login success
+[2022-04-11 17:10:31,184] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 17:10:32,079] OS name = windows 10
+[2022-04-11 17:10:32,081] Driver instance name = chromedriver: chrome on windows (3ad6093cdc2ec5a8f96a2c41d0af51b7)
+[2022-04-11 17:10:33,048] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 17:10:36,143] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 17:10:36,144] Pre-condition - step 03: Set cookie login page
+[2022-04-11 17:10:41,240] Pre-condition - step 04: Click navigate home page
+[2022-04-11 17:10:42,195] Update Customer Info - step 01: Navigate to 'My Account' page
+[2022-04-11 17:10:42,867] Update Customer Info - step 02: Verify Customer Info page open
+[2022-04-11 17:10:42,948]  -------------------------- PASSED -------------------------- 
+[2022-04-11 17:10:42,949] Update Customer Info - step 03: Gender 'Female' checked
+[2022-04-11 17:10:43,079] Update Customer Info - step 04: Enter to Firstname textbox with value is 'Automation'
+[2022-04-11 17:10:43,268] Update Customer Info - step 05: Enter to Lastname textbox with value is 'FC'
+[2022-04-11 17:10:43,453] Update Customer Info - step 06: Select to Day drop dow with value is '1'
+[2022-04-11 17:10:43,601] Update Customer Info - step 07: Select to Moth drop dow with value is 'January'
+[2022-04-11 17:10:43,738] Update Customer Info - step 08: Select to Year drop dow with value is '2000'
+[2022-04-11 17:10:43,859] Update Customer Info - step 09: Enter to email textbox with value is 'giangauto2109@edu.vn'
+[2022-04-11 17:10:44,053] Update Customer Info - step 10: Newsletter: checked
+[2022-04-11 17:10:44,129] Update Customer Info - step 11: Click to 'Save' button
+[2022-04-11 17:10:45,016] OS name = windows 10
+[2022-04-11 17:10:45,017] Driver instance name = chromedriver: chrome on windows (4bbb50b78c9f6c33c175c86f87af2f59)
+[2022-04-11 19:29:22,341] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 19:29:28,151] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 19:29:28,153] Register - step 01: Navigate to 'Register' page
+[2022-04-11 19:29:29,435] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 19:29:29,634] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 19:29:29,843] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto9875@edu.vn'
+[2022-04-11 19:29:30,092] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 19:29:30,302] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 19:29:30,535] Register - step 07: Click to 'Register' button
+[2022-04-11 19:29:31,654] Register - step 08: Verify register success message is display
+[2022-04-11 19:29:31,733]  -------------------------- PASSED -------------------------- 
+[2022-04-11 19:29:31,734] Register - step 09: Click to logout link
+[2022-04-11 19:29:32,648] Login Empty Data - step 01: Navigate to 'Login' page
+[2022-04-11 19:29:33,525] Login Empty Data - step 02: Enter to Email textbox with value is ''
+[2022-04-11 19:29:33,665] Login Empty Data - step 03: Enter to Password textbox with value is ''
+[2022-04-11 19:29:33,812] Login Empty Data - step 04: Click to 'Log in' button
+[2022-04-11 19:29:33,951] Login Empty Data - step 05: Verify message error at email
+[2022-04-11 19:29:34,040]  -------------------------- PASSED -------------------------- 
+[2022-04-11 19:29:34,046] Login Invalid Email - step 01: Navigate to 'Login' page
+[2022-04-11 19:29:34,718] Login Invalid Email - step 02: Enter to Email textbox with value is '123@ahshajh#'
+[2022-04-11 19:29:34,930] Login Invalid Email - step 03: Click to 'Log in' button
+[2022-04-11 19:29:35,081] Login Invalid Email - step 04: Verify message error at email
+[2022-04-11 19:29:35,165]  -------------------------- PASSED -------------------------- 
+[2022-04-11 19:29:35,165] Login Email Not Register - step 01: Navigate to 'Login' page
+[2022-04-11 19:29:35,768] Login Email Not Register - step 02: Enter to Email textbox with value is 'auto2033@gmail.com'
+[2022-04-11 19:29:35,951] Login Email Not Register - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 19:29:36,140] Login Email Not Register - step 04: Click to 'Log in' button
+[2022-04-11 19:29:36,762] Login Email Not Register - step 05: Verify login unsuccessful
+[2022-04-11 19:29:36,839] Login Email Registered Password Empty - step 01: Navigate to 'Login' page
+[2022-04-11 19:29:37,397] Login Email Registered Password Empty - step 02: Enter to Email textbox with value is 'giangauto9875@edu.vn'
+[2022-04-11 19:29:37,584] Login Email Registered Password Empty - step 03: Enter to Password textbox with value is ''
+[2022-04-11 19:29:37,730] Login Email Registered Password Empty - step 04: Click to 'Log in' button
+[2022-04-11 19:29:38,285] Login Email Registered Password Empty - step 05: Verify login unsuccessful
+[2022-04-11 19:29:38,360] Login Email Registered Invalid Password - step 01: Navigate to 'Login' page
+[2022-04-11 19:29:38,938] Login Email Registered Invalid Password - step 02: Enter to Email textbox with value is 'giangauto9875@edu.vn'
+[2022-04-11 19:29:39,154] Login Email Registered Invalid Password - step 03: Enter to Password textbox with value is '123444'
+[2022-04-11 19:29:39,329] Login Email Registered Invalid Password - step 04: Click to 'Log in' button
+[2022-04-11 19:29:39,905] Login Email Registered Invalid Password - step 05: Verify login unsuccessful
+[2022-04-11 19:29:39,996] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 19:29:40,615] Login Success - step 02: Enter to Email textbox with value is 'giangauto9875@edu.vn'
+[2022-04-11 19:29:40,811] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 19:29:40,989] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 19:29:41,952] Login Success - step 05: Get All cookie login page
+[2022-04-11 19:29:41,966] Login Success - step 06: Verify login success
+[2022-04-11 19:29:41,966] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 19:29:42,919] OS name = windows 10
+[2022-04-11 19:29:42,920] Driver instance name = chromedriver: chrome on windows (8c5f694bc09c533e38834a0e68bdcd12)
+[2022-04-11 19:29:44,359] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 19:29:48,505] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 19:29:48,505] Pre-condition - step 03: Set cookie login page
+[2022-04-11 19:29:53,620] Pre-condition - step 04: Click navigate home page
+[2022-04-11 19:29:55,233] Update Customer Info - step 01: Navigate to 'My Account' page
+[2022-04-11 19:29:56,890] Update Customer Info - step 02: Verify Customer Info page open
+[2022-04-11 19:29:56,969]  -------------------------- PASSED -------------------------- 
+[2022-04-11 19:29:56,970] Update Customer Info - step 03: Gender 'Female' checked
+[2022-04-11 19:29:57,123] Update Customer Info - step 04: Enter to Firstname textbox with value is 'Automation'
+[2022-04-11 19:29:57,309] Update Customer Info - step 05: Enter to Lastname textbox with value is 'FC'
+[2022-04-11 19:29:57,503] Update Customer Info - step 06: Select to Day drop dow with value is '1'
+[2022-04-11 19:29:57,631] Update Customer Info - step 07: Select to Moth drop dow with value is 'January'
+[2022-04-11 19:29:57,788] Update Customer Info - step 08: Select to Year drop dow with value is '2000'
+[2022-04-11 19:29:57,927] Update Customer Info - step 09: Enter to email textbox with value is 'giangauto3344@edu.vn'
+[2022-04-11 19:29:58,102] Update Customer Info - step 10: Newsletter: checked
+[2022-04-11 19:29:58,179] Update Customer Info - step 11: Click to 'Save' button
+[2022-04-11 19:29:59,186] OS name = windows 10
+[2022-04-11 19:29:59,187] Driver instance name = chromedriver: chrome on windows (044a20bd2af57d6cfe3835749aa154fa)
+[2022-04-11 21:18:28,087] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:18:32,813] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 21:18:32,817] Register - step 01: Navigate to 'Register' page
+[2022-04-11 21:18:33,855] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 21:18:34,027] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 21:18:34,195] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto6326@edu.vn'
+[2022-04-11 21:18:34,374] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 21:18:34,545] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 21:18:34,681] Register - step 07: Click to 'Register' button
+[2022-04-11 21:18:36,268] Register - step 08: Verify register success message is display
+[2022-04-11 21:18:36,343]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:18:36,343] Register - step 09: Click to logout link
+[2022-04-11 21:18:37,549] Login Empty Data - step 01: Navigate to 'Login' page
+[2022-04-11 21:18:38,600] Login Empty Data - step 02: Enter to Email textbox with value is ''
+[2022-04-11 21:18:38,736] Login Empty Data - step 03: Enter to Password textbox with value is ''
+[2022-04-11 21:18:38,882] Login Empty Data - step 04: Click to 'Log in' button
+[2022-04-11 21:18:39,027] Login Empty Data - step 05: Verify message error at email
+[2022-04-11 21:18:39,120]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:18:39,181] Login Invalid Email - step 01: Navigate to 'Login' page
+[2022-04-11 21:18:39,834] Login Invalid Email - step 02: Enter to Email textbox with value is '123@ahshajh#'
+[2022-04-11 21:18:39,994] Login Invalid Email - step 03: Click to 'Log in' button
+[2022-04-11 21:18:40,108] Login Invalid Email - step 04: Verify message error at email
+[2022-04-11 21:18:40,176]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:18:40,176] Login Email Not Register - step 01: Navigate to 'Login' page
+[2022-04-11 21:18:40,857] Login Email Not Register - step 02: Enter to Email textbox with value is 'auto2033@gmail.com'
+[2022-04-11 21:18:41,027] Login Email Not Register - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 21:18:41,192] Login Email Not Register - step 04: Click to 'Log in' button
+[2022-04-11 21:18:41,907] Login Email Not Register - step 05: Verify login unsuccessful
+[2022-04-11 21:18:41,988] Login Email Registered Password Empty - step 01: Navigate to 'Login' page
+[2022-04-11 21:18:42,692] Login Email Registered Password Empty - step 02: Enter to Email textbox with value is 'giangauto6326@edu.vn'
+[2022-04-11 21:18:42,867] Login Email Registered Password Empty - step 03: Enter to Password textbox with value is ''
+[2022-04-11 21:18:43,039] Login Email Registered Password Empty - step 04: Click to 'Log in' button
+[2022-04-11 21:18:43,926] Login Email Registered Password Empty - step 05: Verify login unsuccessful
+[2022-04-11 21:18:43,988] Login Email Registered Invalid Password - step 01: Navigate to 'Login' page
+[2022-04-11 21:18:44,644] Login Email Registered Invalid Password - step 02: Enter to Email textbox with value is 'giangauto6326@edu.vn'
+[2022-04-11 21:18:44,808] Login Email Registered Invalid Password - step 03: Enter to Password textbox with value is '123444'
+[2022-04-11 21:18:44,970] Login Email Registered Invalid Password - step 04: Click to 'Log in' button
+[2022-04-11 21:18:45,644] Login Email Registered Invalid Password - step 05: Verify login unsuccessful
+[2022-04-11 21:18:45,718] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 21:18:46,338] Login Success - step 02: Enter to Email textbox with value is 'giangauto6326@edu.vn'
+[2022-04-11 21:18:46,510] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 21:18:46,651] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 21:18:47,765] Login Success - step 05: Get All cookie login page
+[2022-04-11 21:18:47,791] Login Success - step 06: Verify login success
+[2022-04-11 21:18:47,791] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 21:18:48,915] OS name = windows 10
+[2022-04-11 21:18:48,916] Driver instance name = chromedriver: chrome on windows (ba85dfd635b15dfb4a62c402ded684e6)
+[2022-04-11 21:18:49,823] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:18:54,530] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 21:18:54,530] Pre-condition - step 03: Set cookie login page
+[2022-04-11 21:18:57,336] Pre-condition - step 04: Click navigate home page
+[2022-04-11 21:18:58,055] Update Customer Info - step 01: Navigate to 'My Account' page
+[2022-04-11 21:18:59,118] Update Customer Info - step 02: Verify Customer Info page open
+[2022-04-11 21:18:59,198]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:18:59,199] Update Customer Info - step 03: Gender 'Female' checked
+[2022-04-11 21:18:59,328] Update Customer Info - step 04: Enter to Firstname text box with value is 'Automation'
+[2022-04-11 21:18:59,514] Update Customer Info - step 05: Enter to Lastname text box with value is 'FC'
+[2022-04-11 21:18:59,693] Update Customer Info - step 06: Select to Day drop dow with value is '1'
+[2022-04-11 21:18:59,877] Update Customer Info - step 07: Select to Moth drop dow with value is 'January'
+[2022-04-11 21:19:00,039] Update Customer Info - step 08: Select to Year drop dow with value is '2000'
+[2022-04-11 21:19:00,188] Update Customer Info - step 09: Enter to email textbox with value is 'giangauto9216@edu.vn'
+[2022-04-11 21:19:00,364] Update Customer Info - step 10: Newsletter: checked
+[2022-04-11 21:19:00,441] Update Customer Info - step 11: Click to 'Save' button
+[2022-04-11 21:19:02,373] Update Customer Info - step 12: Verify gender checked female
+[2022-04-11 21:19:02,432]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:19:02,432] Update Customer Info - step 14: Verify data at fist name
+[2022-04-11 21:19:02,495]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:19:02,495] Update Customer Info - step 15: Verify data at last name
+[2022-04-11 21:19:02,558]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:19:02,558] Update Customer Info - step 16: Verify data at day of birth
+[2022-04-11 21:19:02,675]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:19:02,675] Update Customer Info - step 17: Verify data at month of birth
+[2022-04-11 21:19:02,796]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:19:02,796] Update Customer Info - step 18: Verify data at year of birth
+[2022-04-11 21:19:03,692]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:19:03,692] Update Customer Info - step 19: Verify data at Email
+[2022-04-11 21:19:03,746]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:19:03,747] Update Customer Info - step 20: Verify checked at newsletter
+[2022-04-11 21:19:03,806]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:19:03,807] Add New Address - step 01: Navigate to 'My Account' page
+[2022-04-11 21:19:24,049] OS name = windows 10
+[2022-04-11 21:19:24,049] Driver instance name = chromedriver: chrome on windows (62dedacf901c0b2486bf3fdd66bf1bd3)
+[2022-04-11 21:21:34,638] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:21:40,708] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 21:21:40,710] Register - step 01: Navigate to 'Register' page
+[2022-04-11 21:21:42,973] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 21:21:43,222] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 21:21:43,418] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto4674@edu.vn'
+[2022-04-11 21:21:43,620] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 21:21:43,794] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 21:21:43,968] Register - step 07: Click to 'Register' button
+[2022-04-11 21:21:46,808] Register - step 08: Verify register success message is display
+[2022-04-11 21:21:46,872]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:21:46,872] Register - step 09: Click to logout link
+[2022-04-11 21:21:48,085] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 21:21:50,854] Login Success - step 02: Enter to Email textbox with value is 'giangauto4674@edu.vn'
+[2022-04-11 21:21:51,014] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 21:21:51,158] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 21:21:52,639] Login Success - step 05: Get All cookie login page
+[2022-04-11 21:21:52,654] Login Success - step 06: Verify login success
+[2022-04-11 21:21:52,654] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 21:21:53,826] OS name = windows 10
+[2022-04-11 21:21:53,827] Driver instance name = chromedriver: chrome on windows (7a772b7bfd3cb5f0b4a6d8d1bd863c6b)
+[2022-04-11 21:21:54,774] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:21:57,864] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 21:21:57,864] Pre-condition - step 03: Set cookie login page
+[2022-04-11 21:22:00,588] Pre-condition - step 04: Click navigate home page
+[2022-04-11 21:22:01,846] Add New Address - step 01: Navigate to 'My Account' page
+[2022-04-11 21:22:22,309] OS name = windows 10
+[2022-04-11 21:22:22,309] Driver instance name = chromedriver: chrome on windows (240288db1d7e66e0136a1121016c9c24)
+[2022-04-11 21:24:00,047] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:24:05,721] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 21:24:05,723] Register - step 01: Navigate to 'Register' page
+[2022-04-11 21:24:07,284] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 21:24:07,487] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 21:24:07,675] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto5610@edu.vn'
+[2022-04-11 21:24:07,857] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 21:24:08,026] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 21:24:08,183] Register - step 07: Click to 'Register' button
+[2022-04-11 21:24:10,102] Register - step 08: Verify register success message is display
+[2022-04-11 21:24:10,158]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:24:10,158] Register - step 09: Click to logout link
+[2022-04-11 21:24:11,898] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 21:24:13,184] Login Success - step 02: Enter to Email textbox with value is 'giangauto5610@edu.vn'
+[2022-04-11 21:24:13,401] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 21:24:13,541] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 21:24:15,212] Login Success - step 05: Get All cookie login page
+[2022-04-11 21:24:15,223] Login Success - step 06: Verify login success
+[2022-04-11 21:24:15,223] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 21:24:16,342] OS name = windows 10
+[2022-04-11 21:24:16,342] Driver instance name = chromedriver: chrome on windows (0ffed7d115696f2f6f9f0c271653841a)
+[2022-04-11 21:24:17,319] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:24:20,341] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 21:24:20,341] Pre-condition - step 03: Set cookie login page
+[2022-04-11 21:24:22,471] Pre-condition - step 04: Click navigate home page
+[2022-04-11 21:24:23,773] Add New Address - step 01: Navigate to 'My Account' page
+[2022-04-11 21:24:24,779] Add New Address - step 01: Navigate to 'My Account' page
+[2022-04-11 21:24:45,072] OS name = windows 10
+[2022-04-11 21:24:45,075] Driver instance name = chromedriver: chrome on windows (bda78b76445950d75dec17aaf70578eb)
+[2022-04-11 21:26:27,218] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:26:31,942] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 21:26:31,945] Register - step 01: Navigate to 'Register' page
+[2022-04-11 21:26:32,783] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 21:26:32,976] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 21:26:33,150] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto6462@edu.vn'
+[2022-04-11 21:26:33,333] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 21:26:33,475] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 21:26:33,657] Register - step 07: Click to 'Register' button
+[2022-04-11 21:26:35,863] Register - step 08: Verify register success message is display
+[2022-04-11 21:26:35,926]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:35,926] Register - step 09: Click to logout link
+[2022-04-11 21:26:36,974] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 21:26:37,960] Login Success - step 02: Enter to Email textbox with value is 'giangauto6462@edu.vn'
+[2022-04-11 21:26:38,128] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 21:26:38,274] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 21:26:39,261] Login Success - step 05: Get All cookie login page
+[2022-04-11 21:26:39,275] Login Success - step 06: Verify login success
+[2022-04-11 21:26:39,275] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 21:26:40,196] OS name = windows 10
+[2022-04-11 21:26:40,196] Driver instance name = chromedriver: chrome on windows (b516c708c679c76d430085adbecd29b2)
+[2022-04-11 21:26:41,237] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:26:44,118] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 21:26:44,118] Pre-condition - step 03: Set cookie login page
+[2022-04-11 21:26:46,229] Pre-condition - step 04: Click navigate home page
+[2022-04-11 21:26:47,374] Update Customer Info - step 01: Navigate to 'My Account' page
+[2022-04-11 21:26:48,621] Update Customer Info - step 02: Verify Customer Info page open
+[2022-04-11 21:26:48,696]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:48,696] Update Customer Info - step 03: Gender 'Female' checked
+[2022-04-11 21:26:48,844] Update Customer Info - step 04: Enter to Firstname text box with value is 'Automation'
+[2022-04-11 21:26:49,025] Update Customer Info - step 05: Enter to Lastname text box with value is 'FC'
+[2022-04-11 21:26:49,211] Update Customer Info - step 06: Select to Day drop dow with value is '1'
+[2022-04-11 21:26:49,378] Update Customer Info - step 07: Select to Moth drop dow with value is 'January'
+[2022-04-11 21:26:49,498] Update Customer Info - step 08: Select to Year drop dow with value is '2000'
+[2022-04-11 21:26:49,629] Update Customer Info - step 09: Enter to email textbox with value is 'giangauto1618@edu.vn'
+[2022-04-11 21:26:49,812] Update Customer Info - step 10: Newsletter: checked
+[2022-04-11 21:26:49,896] Update Customer Info - step 11: Click to 'Save' button
+[2022-04-11 21:26:51,382] Update Customer Info - step 12: Verify gender checked female
+[2022-04-11 21:26:51,446]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:51,447] Update Customer Info - step 14: Verify data at fist name
+[2022-04-11 21:26:51,511]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:51,511] Update Customer Info - step 15: Verify data at last name
+[2022-04-11 21:26:51,573]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:51,573] Update Customer Info - step 16: Verify data at day of birth
+[2022-04-11 21:26:51,725]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:51,725] Update Customer Info - step 17: Verify data at month of birth
+[2022-04-11 21:26:51,847]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:51,847] Update Customer Info - step 18: Verify data at year of birth
+[2022-04-11 21:26:52,690]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:52,691] Update Customer Info - step 19: Verify data at Email
+[2022-04-11 21:26:52,757]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:52,757] Update Customer Info - step 20: Verify checked at newsletter
+[2022-04-11 21:26:52,811]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:52,812] Add New Address - step 01: Navigate to 'My Account' page
+[2022-04-11 21:26:53,522] Add New Address - step 01: Navigate to 'My Account' page
+[2022-04-11 21:26:56,453] Add New Address - step 02: Verify Address page open
+[2022-04-11 21:26:56,544]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:26:56,544] Add New Address - step 03: Click to 'Add new' button
+[2022-04-11 21:27:00,175] Add New Address - step 04: Enter to Firstname text box with value is 'Automation'
+[2022-04-11 21:27:00,325] Add New Address - step 05: Enter to Lastname text box with value is 'FC'
+[2022-04-11 21:27:00,471] Add New Address - step 06: Enter to email text box with value is 'giangauto1618@edu.vn'
+[2022-04-11 21:27:00,645] Add New Address - step 07: Select to Country drop dow with value is 'Viet Nam'
+[2022-04-11 21:27:00,789] Add New Address - step 08: Enter to City text box with value is 'Ho Chi Minh'
+[2022-04-11 21:27:00,957] Add New Address - step 09: Enter to Address 1 text box with value is '44 Bui Van Ba'
+[2022-04-11 21:27:01,127] Add New Address - step 10: Enter to Address 2 text box with value is 'Quan 7'
+[2022-04-11 21:27:01,267] Add New Address - step 11: Enter to Zip / postal code text box with value is '700000'
+[2022-04-11 21:27:01,417] Add New Address - step 12: Enter to Phone number text box with value is '0345671897'
+[2022-04-11 21:27:01,564] Add New Address - step 13: Click to 'Save' button
+[2022-04-11 21:27:03,871] Add New Address - step 14: Verify data at Name
+[2022-04-11 21:27:03,936]  -------------------------- FAILED -------------------------- 
+[2022-04-11 21:27:03,936] Add New Address - step 15: Verify data at Email
+[2022-04-11 21:27:03,999]  -------------------------- FAILED -------------------------- 
+[2022-04-11 21:27:03,999] Add New Address - step 16: Verify data at Phone number
+[2022-04-11 21:27:04,058]  -------------------------- FAILED -------------------------- 
+[2022-04-11 21:27:04,058] Add New Address - step 17: Verify data at Address1
+[2022-04-11 21:27:04,122]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:27:04,122] Add New Address - step 18: Verify data at Address2
+[2022-04-11 21:27:04,202]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:27:04,203] Add New Address - step 19: Verify data at City and Zip
+[2022-04-11 21:27:04,279]  -------------------------- FAILED -------------------------- 
+[2022-04-11 21:27:04,279] Add New Address - step 20: Verify data at Country
+[2022-04-11 21:27:04,337]  -------------------------- FAILED -------------------------- 
+[2022-04-11 21:27:04,517] OS name = windows 10
+[2022-04-11 21:27:04,517] Driver instance name = chromedriver: chrome on windows (9a90714cdba273c98532d2d545689c61)
+[2022-04-11 21:33:18,218] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:33:37,665] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 21:33:37,668] Register - step 01: Navigate to 'Register' page
+[2022-04-11 21:33:38,617] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 21:33:38,815] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 21:33:38,995] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto2020@edu.vn'
+[2022-04-11 21:33:39,203] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 21:33:39,376] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 21:33:39,550] Register - step 07: Click to 'Register' button
+[2022-04-11 21:33:40,707] Register - step 08: Verify register success message is display
+[2022-04-11 21:33:40,766]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:40,766] Register - step 09: Click to logout link
+[2022-04-11 21:33:41,824] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 21:33:42,590] Login Success - step 02: Enter to Email textbox with value is 'giangauto2020@edu.vn'
+[2022-04-11 21:33:42,757] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 21:33:42,900] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 21:33:44,054] Login Success - step 05: Get All cookie login page
+[2022-04-11 21:33:44,078] Login Success - step 06: Verify login success
+[2022-04-11 21:33:44,079] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 21:33:45,150] OS name = windows 10
+[2022-04-11 21:33:45,151] Driver instance name = chromedriver: chrome on windows (472fb00b1c1c535ef7e5b98b6a0e65a2)
+[2022-04-11 21:33:46,103] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:33:48,753] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 21:33:48,754] Pre-condition - step 03: Set cookie login page
+[2022-04-11 21:33:50,838] Pre-condition - step 04: Click navigate home page
+[2022-04-11 21:33:52,929] Update Customer Info - step 01: Navigate to 'My Account' page
+[2022-04-11 21:33:53,662] Update Customer Info - step 02: Verify Customer Info page open
+[2022-04-11 21:33:53,734]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:53,735] Update Customer Info - step 03: Gender 'Female' checked
+[2022-04-11 21:33:53,865] Update Customer Info - step 04: Enter to Firstname text box with value is 'Automation'
+[2022-04-11 21:33:54,044] Update Customer Info - step 05: Enter to Lastname text box with value is 'FC'
+[2022-04-11 21:33:54,218] Update Customer Info - step 06: Select to Day drop dow with value is '1'
+[2022-04-11 21:33:54,379] Update Customer Info - step 07: Select to Moth drop dow with value is 'January'
+[2022-04-11 21:33:54,519] Update Customer Info - step 08: Select to Year drop dow with value is '2000'
+[2022-04-11 21:33:54,660] Update Customer Info - step 09: Enter to email textbox with value is 'giangauto9490@edu.vn'
+[2022-04-11 21:33:54,845] Update Customer Info - step 10: Newsletter: checked
+[2022-04-11 21:33:54,926] Update Customer Info - step 11: Click to 'Save' button
+[2022-04-11 21:33:56,322] Update Customer Info - step 12: Verify gender checked female
+[2022-04-11 21:33:56,374]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:56,375] Update Customer Info - step 14: Verify data at fist name
+[2022-04-11 21:33:56,430]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:56,430] Update Customer Info - step 15: Verify data at last name
+[2022-04-11 21:33:56,495]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:56,495] Update Customer Info - step 16: Verify data at day of birth
+[2022-04-11 21:33:56,623]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:56,623] Update Customer Info - step 17: Verify data at month of birth
+[2022-04-11 21:33:56,736]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:56,736] Update Customer Info - step 18: Verify data at year of birth
+[2022-04-11 21:33:57,571]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:57,571] Update Customer Info - step 19: Verify data at Email
+[2022-04-11 21:33:57,627]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:57,627] Update Customer Info - step 20: Verify checked at newsletter
+[2022-04-11 21:33:57,684]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:33:57,685] Add New Address - step 01: Navigate to 'My Account' page
+[2022-04-11 21:33:58,314] Add New Address - step 01: Navigate to 'My Account' page
+[2022-04-11 21:34:00,257] Add New Address - step 02: Verify Address page open
+[2022-04-11 21:34:00,328]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:34:00,331] Add New Address - step 03: Click to 'Add new' button
+[2022-04-11 21:34:03,174] Add New Address - step 04: Enter to Firstname text box with value is 'Automation'
+[2022-04-11 21:34:03,343] Add New Address - step 05: Enter to Lastname text box with value is 'FC'
+[2022-04-11 21:34:03,490] Add New Address - step 06: Enter to email text box with value is 'giangauto9490@edu.vn'
+[2022-04-11 21:34:03,667] Add New Address - step 07: Select to Country drop dow with value is 'Viet Nam'
+[2022-04-11 21:34:03,810] Add New Address - step 08: Enter to City text box with value is 'Ho Chi Minh'
+[2022-04-11 21:34:03,978] Add New Address - step 09: Enter to Address 1 text box with value is '44 Bui Van Ba'
+[2022-04-11 21:34:04,153] Add New Address - step 10: Enter to Address 2 text box with value is 'Quan 7'
+[2022-04-11 21:34:04,301] Add New Address - step 11: Enter to Zip / postal code text box with value is '700000'
+[2022-04-11 21:34:04,474] Add New Address - step 12: Enter to Phone number text box with value is '0345671897'
+[2022-04-11 21:34:04,621] Add New Address - step 13: Click to 'Save' button
+[2022-04-11 21:34:05,969] Add New Address - step 14: Verify data at Name
+[2022-04-11 21:34:06,043]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:34:06,043] Add New Address - step 15: Verify data at Email
+[2022-04-11 21:34:06,121]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:34:06,121] Add New Address - step 16: Verify data at Phone number
+[2022-04-11 21:34:06,182]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:34:06,183] Add New Address - step 17: Verify data at Address1
+[2022-04-11 21:34:06,245]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:34:06,245] Add New Address - step 18: Verify data at Address2
+[2022-04-11 21:34:06,311]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:34:06,311] Add New Address - step 19: Verify data at City and Zip
+[2022-04-11 21:34:06,372]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:34:06,372] Add New Address - step 20: Verify data at Country
+[2022-04-11 21:34:06,438]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:34:06,438] OS name = windows 10
+[2022-04-11 21:34:06,439] Driver instance name = chromedriver: chrome on windows (86e0821d7649b6e8eeb72234b897068f)
+[2022-04-11 21:53:28,862] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:53:34,179] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 21:53:34,181] Register - step 01: Navigate to 'Register' page
+[2022-04-11 21:53:34,979] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 21:53:35,171] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 21:53:35,353] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto1199@edu.vn'
+[2022-04-11 21:53:35,543] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 21:53:35,702] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 21:53:35,874] Register - step 07: Click to 'Register' button
+[2022-04-11 21:53:36,984] Register - step 08: Verify register success message is display
+[2022-04-11 21:53:37,066]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:53:37,066] Register - step 09: Click to logout link
+[2022-04-11 21:53:38,016] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 21:53:38,786] Login Success - step 02: Enter to Email textbox with value is 'giangauto1199@edu.vn'
+[2022-04-11 21:53:38,957] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 21:53:39,099] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 21:53:40,121] Login Success - step 05: Get All cookie login page
+[2022-04-11 21:53:40,138] Login Success - step 06: Verify login success
+[2022-04-11 21:53:40,139] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 21:53:41,113] OS name = windows 10
+[2022-04-11 21:53:41,113] Driver instance name = chromedriver: chrome on windows (392da887d1b3993366a64a77c06b26b9)
+[2022-04-11 21:53:42,023] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:53:44,401] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 21:53:44,401] Pre-condition - step 03: Set cookie login page
+[2022-04-11 21:53:46,501] Pre-condition - step 04: Click navigate home page
+[2022-04-11 21:53:47,543] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 21:53:48,822] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 21:53:49,832] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 21:53:50,025] OS name = windows 10
+[2022-04-11 21:53:50,025] Driver instance name = chromedriver: chrome on windows (31939e4e919211186d7e49c2c13f8eb6)
+[2022-04-11 21:59:02,053] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:59:08,906] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 21:59:08,908] Register - step 01: Navigate to 'Register' page
+[2022-04-11 21:59:09,660] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 21:59:09,849] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 21:59:10,001] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto8671@edu.vn'
+[2022-04-11 21:59:10,171] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 21:59:10,374] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 21:59:10,572] Register - step 07: Click to 'Register' button
+[2022-04-11 21:59:11,649] Register - step 08: Verify register success message is display
+[2022-04-11 21:59:11,735]  -------------------------- PASSED -------------------------- 
+[2022-04-11 21:59:11,735] Register - step 09: Click to logout link
+[2022-04-11 21:59:12,851] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 21:59:13,583] Login Success - step 02: Enter to Email textbox with value is 'giangauto8671@edu.vn'
+[2022-04-11 21:59:13,746] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 21:59:13,906] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 21:59:15,158] Login Success - step 05: Get All cookie login page
+[2022-04-11 21:59:15,171] Login Success - step 06: Verify login success
+[2022-04-11 21:59:15,171] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 21:59:16,048] OS name = windows 10
+[2022-04-11 21:59:16,049] Driver instance name = chromedriver: chrome on windows (b78f2efb0903d7a0812553061514d5a9)
+[2022-04-11 21:59:17,096] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 21:59:19,697] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 21:59:19,697] Pre-condition - step 03: Set cookie login page
+[2022-04-11 21:59:21,777] Pre-condition - step 04: Click navigate home page
+[2022-04-11 21:59:22,920] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 21:59:23,914] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 21:59:25,692] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 21:59:25,858] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 21:59:26,067] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 21:59:26,240] Change Password - step 06: Click to 'Log out' link
+[2022-04-11 21:59:27,457] Change Password - step 07: Navigate to 'Login' page
+[2022-04-11 21:59:47,882] OS name = windows 10
+[2022-04-11 21:59:47,882] Driver instance name = chromedriver: chrome on windows (827a36627432b0b4626fae6cfaeb4998)
+[2022-04-11 22:02:56,669] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:03:00,432] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:03:00,435] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:03:01,610] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:03:01,812] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:03:01,986] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto9831@edu.vn'
+[2022-04-11 22:03:02,181] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:03:02,347] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:03:02,535] Register - step 07: Click to 'Register' button
+[2022-04-11 22:03:04,255] Register - step 08: Verify register success message is display
+[2022-04-11 22:03:04,312]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:03:04,313] Register - step 09: Click to logout link
+[2022-04-11 22:03:05,378] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:03:06,696] Login Success - step 02: Enter to Email textbox with value is 'giangauto9831@edu.vn'
+[2022-04-11 22:03:06,850] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:03:07,010] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:03:08,070] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:03:08,085] Login Success - step 06: Verify login success
+[2022-04-11 22:03:08,085] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:03:09,084] OS name = windows 10
+[2022-04-11 22:03:09,085] Driver instance name = chromedriver: chrome on windows (3ecf21fd000cc3cf6896c35434b405fc)
+[2022-04-11 22:03:10,034] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:03:12,935] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:03:12,935] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:03:15,024] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:03:16,405] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:03:17,301] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:03:19,841] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:03:20,046] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:03:20,233] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:03:20,435] Change Password - step 06: Click to 'Log out' link
+[2022-04-11 22:03:21,393] Change Password - step 07: Navigate to 'Login' page
+[2022-04-11 22:04:54,500] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:04:59,336] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:04:59,340] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:05:00,123] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:05:00,350] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:05:00,508] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto3773@edu.vn'
+[2022-04-11 22:05:00,712] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:05:00,893] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:05:01,042] Register - step 07: Click to 'Register' button
+[2022-04-11 22:05:02,465] Register - step 08: Verify register success message is display
+[2022-04-11 22:05:02,524]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:05:02,524] Register - step 09: Click to logout link
+[2022-04-11 22:05:03,510] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:05:05,125] Login Success - step 02: Enter to Email textbox with value is 'giangauto3773@edu.vn'
+[2022-04-11 22:05:05,283] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:05:05,430] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:05:06,436] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:05:06,451] Login Success - step 06: Verify login success
+[2022-04-11 22:05:06,451] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:05:07,625] OS name = windows 10
+[2022-04-11 22:05:07,625] Driver instance name = chromedriver: chrome on windows (24b69fc0f03078d8714d93ab532a9e82)
+[2022-04-11 22:05:08,736] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:05:12,078] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:05:12,078] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:05:14,176] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:05:15,114] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:05:15,798] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:05:16,454] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:05:16,610] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:05:16,800] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:05:16,971] Change Password - step 06: Click to 'Log out' link
+[2022-04-11 22:14:44,884] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:14:49,137] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:14:49,142] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:14:50,875] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:14:51,076] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:14:51,265] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto2305@edu.vn'
+[2022-04-11 22:14:51,451] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:14:51,637] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:14:51,808] Register - step 07: Click to 'Register' button
+[2022-04-11 22:14:53,085] Register - step 08: Verify register success message is display
+[2022-04-11 22:14:53,166]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:14:53,167] Register - step 09: Click to logout link
+[2022-04-11 22:14:54,224] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:14:55,530] Login Success - step 02: Enter to Email textbox with value is 'giangauto2305@edu.vn'
+[2022-04-11 22:14:55,698] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:14:55,861] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:14:56,935] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:14:56,958] Login Success - step 06: Verify login success
+[2022-04-11 22:14:56,958] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:14:57,937] OS name = windows 10
+[2022-04-11 22:14:57,938] Driver instance name = chromedriver: chrome on windows (fd8967d3bfe421d35f10195887ab77c3)
+[2022-04-11 22:14:58,907] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:15:01,381] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:15:01,382] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:15:03,478] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:15:04,495] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:15:05,974] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:15:07,324] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:15:07,492] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:15:07,653] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:15:07,807] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:15:08,399] Change Password - step 07: Verify change password success
+[2022-04-11 22:15:08,468]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:15:08,468] Change Password - step 08: Click to 'Log out' link
+[2022-04-11 22:19:50,631] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:19:54,682] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:19:54,685] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:19:55,478] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:19:55,679] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:19:55,867] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto3939@edu.vn'
+[2022-04-11 22:19:56,059] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:19:56,233] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:19:56,407] Register - step 07: Click to 'Register' button
+[2022-04-11 22:19:57,475] Register - step 08: Verify register success message is display
+[2022-04-11 22:19:57,547]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:19:57,547] Register - step 09: Click to logout link
+[2022-04-11 22:19:58,592] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:19:59,297] Login Success - step 02: Enter to Email textbox with value is 'giangauto3939@edu.vn'
+[2022-04-11 22:19:59,468] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:19:59,634] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:20:00,638] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:20:00,648] Login Success - step 06: Verify login success
+[2022-04-11 22:20:00,649] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:20:01,585] OS name = windows 10
+[2022-04-11 22:20:01,586] Driver instance name = chromedriver: chrome on windows (4c43fb2cc74f9652961b74bc8bad3aa6)
+[2022-04-11 22:20:02,552] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:20:05,834] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:20:05,834] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:20:08,449] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:20:09,020] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:20:09,742] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:20:10,442] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:20:10,615] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:20:10,790] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:20:10,945] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:20:11,533] Change Password - step 07: Verify change password success
+[2022-04-11 22:20:11,620]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:20:11,620] Change Password - step 08: Click close Message
+[2022-04-11 22:20:58,243] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:21:04,668] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:21:04,672] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:21:05,549] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:21:05,759] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:21:05,954] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto6993@edu.vn'
+[2022-04-11 22:21:06,157] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:21:06,342] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:21:06,506] Register - step 07: Click to 'Register' button
+[2022-04-11 22:21:07,627] Register - step 08: Verify register success message is display
+[2022-04-11 22:21:07,721]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:21:07,721] Register - step 09: Click to logout link
+[2022-04-11 22:21:08,696] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:21:09,706] Login Success - step 02: Enter to Email textbox with value is 'giangauto6993@edu.vn'
+[2022-04-11 22:21:09,868] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:21:10,021] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:21:11,027] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:21:11,045] Login Success - step 06: Verify login success
+[2022-04-11 22:21:11,045] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:21:12,122] OS name = windows 10
+[2022-04-11 22:21:12,122] Driver instance name = chromedriver: chrome on windows (eb3d579b5065d61ce1f6cc602bee3937)
+[2022-04-11 22:21:13,037] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:21:15,517] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:21:15,517] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:21:18,111] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:21:18,702] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:21:19,643] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:21:20,390] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:21:20,574] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:21:20,744] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:21:20,910] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:21:21,556] Change Password - step 07: Verify change password success
+[2022-04-11 22:21:21,646]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:21:21,646] Change Password - step 08: Click close Message
+[2022-04-11 22:21:21,776] Change Password - step 09: Click to 'Log out' link
+[2022-04-11 22:21:23,757] Change Password - step 10: Navigate to 'Login' page
+[2022-04-11 22:24:48,002] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:24:52,264] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:24:52,267] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:24:53,095] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:24:53,294] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:24:53,496] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto778@edu.vn'
+[2022-04-11 22:24:53,701] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:24:53,887] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:24:54,059] Register - step 07: Click to 'Register' button
+[2022-04-11 22:24:55,209] Register - step 08: Verify register success message is display
+[2022-04-11 22:24:55,310]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:24:55,310] Register - step 09: Click to logout link
+[2022-04-11 22:24:56,297] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:24:57,018] Login Success - step 02: Enter to Email textbox with value is 'giangauto778@edu.vn'
+[2022-04-11 22:24:57,194] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:24:57,353] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:24:58,353] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:24:58,369] Login Success - step 06: Verify login success
+[2022-04-11 22:24:58,369] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:24:59,271] OS name = windows 10
+[2022-04-11 22:24:59,272] Driver instance name = chromedriver: chrome on windows (885f62f39648d9d9a00def5a02ff6aae)
+[2022-04-11 22:25:00,225] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:25:02,962] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:25:02,962] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:25:05,071] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:25:06,195] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:25:07,791] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:25:09,239] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:25:09,412] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:25:09,601] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:25:09,785] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:25:10,571] Change Password - step 07: Verify change password success
+[2022-04-11 22:25:10,672]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:25:10,672] Change Password - step 08: Click close Message
+[2022-04-11 22:25:10,814] Change Password - step 09: Click to 'Log out' link
+[2022-04-11 22:25:12,686] Change Password - step 10: Navigate to 'Login' page
+[2022-04-11 22:25:19,349] Change Password - step 11: Set cookie login with password old page
+[2022-04-11 22:25:22,564] Change Password - step 11: Verify login unsuccessful
+[2022-04-11 22:30:43,356] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:30:48,166] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:30:48,169] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:30:49,478] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:30:49,678] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:30:49,854] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto7942@edu.vn'
+[2022-04-11 22:30:50,047] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:30:50,215] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:30:50,361] Register - step 07: Click to 'Register' button
+[2022-04-11 22:30:51,535] Register - step 08: Verify register success message is display
+[2022-04-11 22:30:51,611]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:30:51,611] Register - step 09: Click to logout link
+[2022-04-11 22:30:52,764] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:30:53,557] Login Success - step 02: Enter to Email textbox with value is 'giangauto7942@edu.vn'
+[2022-04-11 22:30:53,724] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:30:53,885] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:30:54,844] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:30:54,861] Login Success - step 06: Verify login success
+[2022-04-11 22:30:54,861] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:30:55,768] OS name = windows 10
+[2022-04-11 22:30:55,768] Driver instance name = chromedriver: chrome on windows (888266cb4628733148020556de5fcfa5)
+[2022-04-11 22:30:56,730] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:31:00,137] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:31:00,137] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:31:02,242] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:31:03,312] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:31:04,373] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:31:05,745] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:31:05,918] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:31:06,092] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:31:06,266] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:31:06,927] Change Password - step 07: Verify change password success
+[2022-04-11 22:31:07,030]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:31:07,031] Change Password - step 08: Click close Message
+[2022-04-11 22:31:07,158] Change Password - step 09: Deleted all cookie
+[2022-04-11 22:31:07,216] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:31:07,832] Change Password - step 10: Navigate to 'Login' page
+[2022-04-11 22:31:09,233] Change Password - step 11: Set cookie login with password old page
+[2022-04-11 22:31:11,348] Change Password - step 11: Verify login unsuccessful
+[2022-04-11 22:40:42,599] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:40:46,617] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:40:46,620] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:40:47,742] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:40:47,946] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:40:48,135] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto8494@gmail.com'
+[2022-04-11 22:40:48,324] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:40:48,505] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:40:48,691] Register - step 07: Click to 'Register' button
+[2022-04-11 22:40:50,672] Register - step 08: Verify register success message is display
+[2022-04-11 22:40:50,756]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:40:50,756] Register - step 09: Click to logout link
+[2022-04-11 22:40:51,896] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:40:52,933] Login Success - step 02: Enter to Email textbox with value is 'giangauto8494@gmail.com'
+[2022-04-11 22:40:53,103] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:40:53,256] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:40:54,770] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:40:54,785] Login Success - step 06: Verify login success
+[2022-04-11 22:40:54,785] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:40:55,748] OS name = windows 10
+[2022-04-11 22:40:55,749] Driver instance name = chromedriver: chrome on windows (601a8fe53d0146692415f9f2516a1ce7)
+[2022-04-11 22:40:56,708] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:40:59,178] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:40:59,178] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:41:01,267] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:41:02,353] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:41:04,659] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:41:07,639] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:41:07,794] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:41:07,968] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:41:08,139] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:41:08,817] Change Password - step 07: Verify change password success
+[2022-04-11 22:41:08,893]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:41:08,893] Change Password - step 08: Click close Message
+[2022-04-11 22:41:09,010] Change Password - step 09: Deleted all cookie
+[2022-04-11 22:41:09,073] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:41:09,747] Change Password - step 10: Navigate to 'Login' page
+[2022-04-11 22:42:13,300] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:42:16,838] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:42:16,842] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:42:18,286] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:42:18,488] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:42:18,663] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto1622@gmail.com'
+[2022-04-11 22:42:18,851] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:42:19,032] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:42:19,198] Register - step 07: Click to 'Register' button
+[2022-04-11 22:42:21,438] Register - step 08: Verify register success message is display
+[2022-04-11 22:42:21,521]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:42:21,522] Register - step 09: Click to logout link
+[2022-04-11 22:42:22,553] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:42:24,181] Login Success - step 02: Enter to Email textbox with value is 'giangauto1622@gmail.com'
+[2022-04-11 22:42:24,348] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:42:24,508] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:42:25,450] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:42:25,465] Login Success - step 06: Verify login success
+[2022-04-11 22:42:25,465] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:42:26,391] OS name = windows 10
+[2022-04-11 22:42:26,392] Driver instance name = chromedriver: chrome on windows (c92f5535ccb004b38adbf5dec247616d)
+[2022-04-11 22:42:27,317] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:42:30,715] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:42:30,716] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:42:32,823] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:42:33,953] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:42:34,809] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:42:35,652] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:42:35,856] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:42:36,040] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:42:36,203] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:42:36,911] Change Password - step 07: Verify change password success
+[2022-04-11 22:42:36,998]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:42:36,998] Change Password - step 08: Click close Message
+[2022-04-11 22:42:37,137] Change Password - step 09: Deleted all cookie
+[2022-04-11 22:42:37,190] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:42:37,805] Change Password - step 10: Navigate to 'Login' page
+[2022-04-11 22:42:38,567] Change Password - step 11: Set cookie login with password old page
+[2022-04-11 22:42:39,578] Change Password - step 11: Verify login unsuccessful
+[2022-04-11 22:50:15,225] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:50:19,917] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:50:19,921] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:50:21,217] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:50:21,407] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:50:21,596] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto6293@gmail.com'
+[2022-04-11 22:50:21,786] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:50:21,950] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:50:22,115] Register - step 07: Click to 'Register' button
+[2022-04-11 22:50:23,823] Register - step 08: Verify register success message is display
+[2022-04-11 22:50:23,906]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:50:23,906] Register - step 09: Click to logout link
+[2022-04-11 22:50:24,931] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:50:26,286] Login Success - step 02: Enter to Email textbox with value is 'giangauto6293@gmail.com'
+[2022-04-11 22:50:26,473] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:50:26,654] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:50:27,607] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:50:27,620] Login Success - step 06: Verify login success
+[2022-04-11 22:50:27,704] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:50:28,658] OS name = windows 10
+[2022-04-11 22:50:28,658] Driver instance name = chromedriver: chrome on windows (1f65771405e25a3f15b5636c37a9e29b)
+[2022-04-11 22:50:29,647] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:50:32,102] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:50:32,102] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:50:34,194] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:50:35,281] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:50:36,214] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:50:37,637] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:50:37,814] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:50:37,975] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:50:38,113] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:50:38,893] Change Password - step 07: Verify change password success
+[2022-04-11 22:50:38,977]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:50:38,977] Change Password - step 08: Click close Message
+[2022-04-11 22:50:39,096] Change Password - step 09: Deleted all cookie
+[2022-04-11 22:50:39,152] Pre-condition - step 10: Click navigate home page
+[2022-04-11 22:50:39,810] Change Password - step 11: Navigate to 'Login' page
+[2022-04-11 22:50:41,910] Change Password - step 12: Login with password old
+[2022-04-11 22:50:42,933] Change Password - step 13: Verify login unsuccessful
+[2022-04-11 22:53:23,416] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:53:27,097] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:53:27,100] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:53:28,363] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:53:28,554] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:53:28,745] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto4685@gmail.com'
+[2022-04-11 22:53:28,968] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:53:29,140] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:53:29,295] Register - step 07: Click to 'Register' button
+[2022-04-11 22:53:30,493] Register - step 08: Verify register success message is display
+[2022-04-11 22:53:30,567]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:53:30,567] Register - step 09: Click to logout link
+[2022-04-11 22:53:31,569] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:53:32,623] Login Success - step 02: Enter to Email textbox with value is 'giangauto4685@gmail.com'
+[2022-04-11 22:53:32,790] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:53:32,949] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:53:33,893] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:53:33,907] Login Success - step 06: Verify login success
+[2022-04-11 22:53:34,009] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:53:35,024] OS name = windows 10
+[2022-04-11 22:53:35,025] Driver instance name = chromedriver: chrome on windows (291081b7a65783ba3cf19369a747a7bc)
+[2022-04-11 22:53:35,982] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:53:41,412] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:53:41,412] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:53:43,513] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:53:44,945] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:53:45,719] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:53:47,637] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:53:47,802] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:53:47,973] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:53:48,135] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:53:48,799] Change Password - step 07: Verify change password success
+[2022-04-11 22:53:48,879]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:53:48,880] Change Password - step 08: Click close Message
+[2022-04-11 22:53:48,982] Change Password - step 09: Deleted all cookie
+[2022-04-11 22:53:49,043] Pre-condition - step 10: Click navigate home page
+[2022-04-11 22:53:49,631] Change Password - step 11: Navigate to 'Login' page
+[2022-04-11 22:53:50,520] Change Password - step 12: Login with password old
+[2022-04-11 22:53:51,542] Change Password - step 13: Verify login unsuccessful
+[2022-04-11 22:53:51,625] Change Password - step 14: Set cookie login with password new page
+[2022-04-11 22:53:52,903] Change Password - step 15: Verify login successful
+[2022-04-11 22:57:37,705] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:57:41,790] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 22:57:41,795] Register - step 01: Navigate to 'Register' page
+[2022-04-11 22:57:43,160] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 22:57:43,359] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 22:57:43,533] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto3989@gmail.com'
+[2022-04-11 22:57:43,704] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 22:57:43,880] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 22:57:44,058] Register - step 07: Click to 'Register' button
+[2022-04-11 22:57:44,995] Register - step 08: Verify register success message is display
+[2022-04-11 22:57:45,070]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:57:45,071] Register - step 09: Click to logout link
+[2022-04-11 22:57:46,171] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 22:57:46,820] Login Success - step 02: Enter to Email textbox with value is 'giangauto3989@gmail.com'
+[2022-04-11 22:57:47,007] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 22:57:47,171] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 22:57:48,044] Login Success - step 05: Get All cookie login page
+[2022-04-11 22:57:48,058] Login Success - step 06: Verify login success
+[2022-04-11 22:57:48,145] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 22:57:49,002] OS name = windows 10
+[2022-04-11 22:57:49,003] Driver instance name = chromedriver: chrome on windows (d34659774aecfadbbb27645a7f022f41)
+[2022-04-11 22:57:50,016] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 22:57:53,069] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 22:57:53,069] Pre-condition - step 03: Set cookie login page
+[2022-04-11 22:57:56,033] Pre-condition - step 04: Click navigate home page
+[2022-04-11 22:57:56,617] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 22:57:57,947] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 22:57:58,556] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 22:57:58,714] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 22:57:58,895] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 22:57:59,065] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 22:57:59,704] Change Password - step 07: Verify change password success
+[2022-04-11 22:57:59,788]  -------------------------- PASSED -------------------------- 
+[2022-04-11 22:57:59,788] Change Password - step 08: Click close Message
+[2022-04-11 22:57:59,908] Change Password - step 09: Deleted all cookie
+[2022-04-11 22:58:00,444] Pre-condition - step 10: Click navigate home page
+[2022-04-11 23:00:58,334] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 23:01:02,562] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 23:01:02,566] Register - step 01: Navigate to 'Register' page
+[2022-04-11 23:01:03,542] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 23:01:03,739] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 23:01:03,930] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto9686@gmail.com'
+[2022-04-11 23:01:04,133] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 23:01:04,288] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 23:01:04,464] Register - step 07: Click to 'Register' button
+[2022-04-11 23:01:05,408] Register - step 08: Verify register success message is display
+[2022-04-11 23:01:05,489]  -------------------------- PASSED -------------------------- 
+[2022-04-11 23:01:05,489] Register - step 09: Click to logout link
+[2022-04-11 23:01:06,358] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 23:01:07,663] Login Success - step 02: Enter to Email textbox with value is 'giangauto9686@gmail.com'
+[2022-04-11 23:01:07,822] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 23:01:07,962] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 23:01:08,820] Login Success - step 05: Get All cookie login page
+[2022-04-11 23:01:08,831] Login Success - step 06: Verify login success
+[2022-04-11 23:01:08,926] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 23:01:09,774] OS name = windows 10
+[2022-04-11 23:01:09,775] Driver instance name = chromedriver: chrome on windows (593fe0703f5bd43be87a17ec70ff0dd5)
+[2022-04-11 23:01:10,734] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 23:01:13,861] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 23:01:13,862] Pre-condition - step 03: Set cookie login page
+[2022-04-11 23:01:15,965] Pre-condition - step 04: Click navigate home page
+[2022-04-11 23:01:17,009] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 23:01:18,433] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 23:01:19,371] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 23:01:19,533] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 23:01:19,697] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 23:01:19,833] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 23:01:20,471] Change Password - step 07: Verify change password success
+[2022-04-11 23:01:20,544]  -------------------------- PASSED -------------------------- 
+[2022-04-11 23:01:20,544] Change Password - step 08: Click close Message
+[2022-04-11 23:01:20,544] Change Password - step 09: Deleted all cookie
+[2022-04-11 23:01:20,604] Pre-condition - step 10: Click navigate home page
+[2022-04-11 23:01:41,952] OS name = windows 10
+[2022-04-11 23:01:41,952] Driver instance name = chromedriver: chrome on windows (24042d29d93267e85d97744403784ee2)
+[2022-04-11 23:03:30,473] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 23:03:34,700] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 23:03:34,703] Register - step 01: Navigate to 'Register' page
+[2022-04-11 23:03:35,691] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 23:03:35,892] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 23:03:36,060] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto9607@gmail.com'
+[2022-04-11 23:03:36,250] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 23:03:36,390] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 23:03:36,571] Register - step 07: Click to 'Register' button
+[2022-04-11 23:03:37,460] Register - step 08: Verify register success message is display
+[2022-04-11 23:03:37,524]  -------------------------- PASSED -------------------------- 
+[2022-04-11 23:03:37,524] Register - step 09: Click to logout link
+[2022-04-11 23:03:38,459] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 23:03:39,488] Login Success - step 02: Enter to Email textbox with value is 'giangauto9607@gmail.com'
+[2022-04-11 23:03:39,652] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 23:03:39,814] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 23:03:40,861] Login Success - step 05: Get All cookie login page
+[2022-04-11 23:03:40,877] Login Success - step 06: Verify login success
+[2022-04-11 23:03:40,983] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 23:03:41,987] OS name = windows 10
+[2022-04-11 23:03:41,988] Driver instance name = chromedriver: chrome on windows (0e4b11e78a73eebfc34b00c33be6a780)
+[2022-04-11 23:03:42,966] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 23:03:45,364] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 23:03:45,364] Pre-condition - step 03: Set cookie login page
+[2022-04-11 23:03:48,641] Pre-condition - step 04: Click navigate home page
+[2022-04-11 23:03:49,137] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 23:03:50,101] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 23:03:51,377] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 23:03:51,549] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 23:03:51,709] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 23:03:51,884] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 23:03:52,478] Change Password - step 07: Verify change password success
+[2022-04-11 23:03:52,561]  -------------------------- PASSED -------------------------- 
+[2022-04-11 23:03:52,561] Change Password - step 08: Click close Message
+[2022-04-11 23:03:52,677] Change Password - step 09: Deleted all cookie
+[2022-04-11 23:03:52,677] Pre-condition - step 10: Click navigate home page
+[2022-04-11 23:03:53,229] Change Password - step 11: Navigate to 'Login' page
+[2022-04-11 23:04:13,571] OS name = windows 10
+[2022-04-11 23:04:13,572] Driver instance name = chromedriver: chrome on windows (15f0f8b9ea1b2a20d932f4e4d896f5a9)
+[2022-04-11 23:04:48,207] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 23:04:51,975] Pre-condition - step 02: Khởi tạo page search
+[2022-04-11 23:04:51,978] Register - step 01: Navigate to 'Register' page
+[2022-04-11 23:04:52,679] Register - step 02: Enter to Firstname textbox with value is 'Giang'
+[2022-04-11 23:04:52,886] Register - step 03: Enter to Lastname textbox with value is 'Auto'
+[2022-04-11 23:04:53,058] Register - step 04: Enter to UseremailAddress textbox with value is 'giangauto2836@gmail.com'
+[2022-04-11 23:04:53,256] Register - step 05: Enter to userPassword textbox with value is '123456'
+[2022-04-11 23:04:53,439] Register - step 06: Enter to ConfirmPassword textbox with value is '123456'
+[2022-04-11 23:04:53,582] Register - step 07: Click to 'Register' button
+[2022-04-11 23:04:55,547] Register - step 08: Verify register success message is display
+[2022-04-11 23:04:55,622]  -------------------------- PASSED -------------------------- 
+[2022-04-11 23:04:55,623] Register - step 09: Click to logout link
+[2022-04-11 23:04:56,623] Login Success - step 01: Navigate to 'Login' page
+[2022-04-11 23:04:58,056] Login Success - step 02: Enter to Email textbox with value is 'giangauto2836@gmail.com'
+[2022-04-11 23:04:58,217] Login Success - step 03: Enter to Password textbox with value is '123456'
+[2022-04-11 23:04:58,359] Login Success - step 04: Click to 'Log in' button
+[2022-04-11 23:04:59,274] Login Success - step 05: Get All cookie login page
+[2022-04-11 23:04:59,288] Login Success - step 06: Verify login success
+[2022-04-11 23:04:59,373] Login Success - step 07: Click to 'Log out' link
+[2022-04-11 23:05:00,933] OS name = windows 10
+[2022-04-11 23:05:00,935] Driver instance name = chromedriver: chrome on windows (06d0fd5760f6aae8d21395d75406a3a9)
+[2022-04-11 23:05:01,812] Pre-condition - step 01: Open Page With Browser 'chrome' And Url: 'https://demo.nopcommerce.com/;
+[2022-04-11 23:05:05,396] Pre-condition - step 02: Khởi tạo page login
+[2022-04-11 23:05:05,396] Pre-condition - step 03: Set cookie login page
+[2022-04-11 23:05:07,492] Pre-condition - step 04: Click navigate home page
+[2022-04-11 23:05:08,503] Change Password - step 01: Navigate to 'My Account' page
+[2022-04-11 23:05:10,106] Change Password - step 02: Navigate to 'Change password' page
+[2022-04-11 23:05:11,618] Change Password - step 03: Enter to Old Password text box with value is '123456'
+[2022-04-11 23:05:11,804] Change Password - step 04: Enter to New Password text box with value is '1234567'
+[2022-04-11 23:05:11,987] Change Password - step 05: Enter to Confirm Password text box with value is '1234567'
+[2022-04-11 23:05:12,153] Change Password - step 06: Click to 'Change password' button
+[2022-04-11 23:05:12,756] Change Password - step 07: Verify change password success
+[2022-04-11 23:05:12,840]  -------------------------- PASSED -------------------------- 
+[2022-04-11 23:05:12,840] Change Password - step 08: Click close Message
+[2022-04-11 23:05:12,960] Change Password - step 09: Deleted all cookie
+[2022-04-11 23:05:13,013] Pre-condition - step 10: Click navigate home page
+[2022-04-11 23:05:13,557] Change Password - step 11: Navigate to 'Login' page
+[2022-04-11 23:05:14,505] Change Password - step 12: Login with password old
+[2022-04-11 23:05:15,396] Change Password - step 13: Verify login unsuccessful
+[2022-04-11 23:05:15,450] Change Password - step 14: Set cookie login with password new page
+[2022-04-11 23:05:16,626] Change Password - step 15: Verify login successful
+[2022-04-11 23:05:16,720] OS name = windows 10
+[2022-04-11 23:05:16,720] Driver instance name = chromedriver: chrome on windows (37bd69ba2e912d278938c5e4c8a60d70)
+[2022-04-12 11:23:17,774]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:19,489]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:21,058]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:22,480]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:24,755]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:29,683]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:31,759] OS name = windows 10
+[2022-04-12 11:23:31,759] Driver instance name = chromedriver: chrome on windows (d5614a875393206f4153a14424878f86)
+[2022-04-12 11:23:40,066]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:42,587]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:43,549]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:23:51,235] OS name = windows 10
+[2022-04-12 11:23:51,236] Driver instance name = chromedriver: chrome on windows (38589715fd7b14eea03835183fee5966)
+[2022-04-12 11:23:59,885]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:02,000]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:02,068]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:02,146]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:02,259]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:02,364]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:03,179]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:03,244]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:03,301]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:05,379]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:10,959]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:11,040]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:11,113]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:11,194]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:11,269]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:11,333]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:11,394]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:14,289]  -------------------------- PASSED -------------------------- 
+[2022-04-12 11:24:18,741] OS name = windows 10
+[2022-04-12 11:24:18,741] Driver instance name = chromedriver: chrome on windows (2d1d29b7c08dff8afbf85b8c0c5cee0c)
+[2022-04-12 13:06:41,260]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:06:42,908]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:06:44,434]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:06:45,823]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:06:47,585]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:06:51,460]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:06:53,465] OS name = windows 10
+[2022-04-12 13:06:53,465] Driver instance name = chromedriver: chrome on windows (fb1f6a1924d4b721f12d46235057d6a5)
+[2022-04-12 13:07:00,322]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:02,550]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:03,442]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:11,017] OS name = windows 10
+[2022-04-12 13:07:11,017] Driver instance name = chromedriver: chrome on windows (ff681844acb980200d212a0bc999393a)
+[2022-04-12 13:07:20,315]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:22,750]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:22,817]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:22,877]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:22,994]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:23,113]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:23,906]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:23,975]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:24,030]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:25,431]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:30,678]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:30,757]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:30,817]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:30,878]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:30,957]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:31,037]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:31,126]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:33,783]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:07:38,128] OS name = windows 10
+[2022-04-12 13:07:38,128] Driver instance name = chromedriver: chrome on windows (dd6dc78ceda68b8d0c320920c5b81897)
+[2022-04-12 13:10:26,943]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:10:28,520]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:10:30,079]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:10:31,504]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:10:33,252]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:10:37,189]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:10:39,217] OS name = windows 10
+[2022-04-12 13:10:39,217] Driver instance name = chromedriver: chrome on windows (8d236cdd4b259522054eab6143cd543a)
+[2022-04-12 13:10:47,064]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:10:49,644]  -------------------------- FAILED -------------------------- 
+[2022-04-12 13:10:50,922]  -------------------------- FAILED -------------------------- 
+[2022-04-12 13:10:58,273] OS name = windows 10
+[2022-04-12 13:10:58,273] Driver instance name = chromedriver: chrome on windows (0f858f10f57d21798efbf1eb3afd3a43)
+[2022-04-12 13:13:02,952]  -------------------------- PASSED -------------------------- 
+[2022-04-12 13:13:05,605]  -------------------------- FAILED -------------------------- 
+[2022-04-12 13:13:07,018]  -------------------------- FAILED -------------------------- 
+[2022-04-12 13:13:15,062] OS name = windows 10
+[2022-04-12 13:13:15,062] Driver instance name = chromedriver: chrome on windows (51da0957a23ae46fa39e154a921c5f84)
+[2022-04-12 17:08:29,985]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:30,119]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:30,195]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:30,273]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:30,350]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:32,991]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:37,593]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:41,618]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:43,880]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:46,071]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:08:46,074] OS name = windows 10
+[2022-04-12 17:08:46,074] Driver instance name = chromedriver: chrome on windows (114f25bdb3f021b193c2be39123f1387)
+[2022-04-12 17:11:35,453]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:35,530]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:35,592]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:35,671]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:35,748]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:38,799]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:42,282]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:46,337]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:48,673]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:50,860]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:11:50,865] OS name = windows 10
+[2022-04-12 17:11:50,865] Driver instance name = chromedriver: chrome on windows (75e172bfb0f414451876e6060400a645)
+[2022-04-12 17:11:55,949]  -------------------------- FAILED -------------------------- 
+[2022-04-12 17:11:57,052]  -------------------------- FAILED -------------------------- 
+[2022-04-12 17:12:04,907] OS name = windows 10
+[2022-04-12 17:12:04,908] Driver instance name = chromedriver: chrome on windows (730697f891173c67934940fc0bd9581a)
+[2022-04-12 17:12:13,180]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:15,321]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:15,389]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:15,453]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:15,579]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:15,698]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:16,550]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:16,620]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:16,678]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:17,982]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:21,208]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:21,269]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:21,330]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:21,407]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:21,471]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:21,532]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:21,591]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:24,794]  -------------------------- PASSED -------------------------- 
+[2022-04-12 17:12:28,691] OS name = windows 10
+[2022-04-12 17:12:28,691] Driver instance name = chromedriver: chrome on windows (4291e98f205d8fcdd67cd4d424ae9061)
