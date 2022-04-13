@@ -79,7 +79,7 @@ public class Login extends BaseTest {
 
         loginPage.clickToButtonByText(driver, "buttons","Log in");
 
-        verifyEquals(loginPage.getMessageError(driver, "Email-error"), "Please enter your email.");
+        verifyEquals(loginPage.getMessageError(driver, "Email-error"), "Please enter your email");
 
     }
 
@@ -94,7 +94,7 @@ public class Login extends BaseTest {
 
         loginPage.clickToButtonByText(driver, "buttons","Log in");
 
-        verifyEquals(loginPage.getMessageError(driver, "Email-error"), "Wrong email.");
+        verifyEquals(loginPage.getMessageError(driver, "Email-error"), "Wrong email");
 
     }
 

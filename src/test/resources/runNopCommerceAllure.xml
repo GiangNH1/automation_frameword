@@ -20,6 +20,8 @@
 			<class name="com.nopcommerce.testCases.Register" />
 			<class name="com.nopcommerce.testCases.Login" />
 			<class name="com.nopcommerce.testCases.MyAccount" />
+			<class name="com.nopcommerce.testCases.Search" />
+			<class name="com.nopcommerce.testCases.Sort_Display_Paging" />
 		</classes>
 	</test> <!-- Test -->
 

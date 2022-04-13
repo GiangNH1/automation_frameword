@@ -173,7 +173,7 @@
                 <configuration>
                     <!-- Run TestNG xml file -->
                     <suiteXmlFiles>
-                        <file>src/test/resources/runHRM.xml</file>
+                        <file>src/test/resources/runNopCommerceAllure.xml</file>
                     </suiteXmlFiles>
 
                     <!-- Argument -->

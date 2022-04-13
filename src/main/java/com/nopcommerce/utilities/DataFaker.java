@@ -24,6 +24,10 @@ public class DataFaker {
         return faker.name().lastName();
     }
 
+    public String getUserName(){
+        return faker.name().username();
+    }
+
     public String getEmail(){
         return GlobalConstants.getRandomEmail();
     }
@@ -45,7 +49,7 @@ public class DataFaker {
     }
 
     public String getZip(){
-        return faker.address().zipCode();
+        return String.valueOf(faker.random().nextInt(70000, 100000));
     }
 
     public String getPhone(){

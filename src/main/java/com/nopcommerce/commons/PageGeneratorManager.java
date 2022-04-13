@@ -35,5 +35,8 @@ public class PageGeneratorManager {
 	public static ChangePasswordPO getChangePasswordPage(WebDriver driver) {
 		return new ChangePasswordPO(driver);
 	}
-	
+
+	public static NotebooksPO getNotebooksPage(WebDriver driver) {
+		return new NotebooksPO(driver);
+	}
 }

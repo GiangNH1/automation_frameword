@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import com.nopcommerce.pageUIs.BasePageUI;
 import io.qameta.allure.Step;
+import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -24,6 +25,7 @@ public class BasePage {
 	private JavascriptExecutor jsExecutor;
 	private WebDriverWait explicitWait;
 	private long longTime = GlobalConstants.LONG_TIMEOUT;
+	private long shortTime = GlobalConstants.SHORT_TIMEOUT;
 	
 	public static BasePage getBasePage() {
 		return new BasePage();
@@ -321,6 +323,21 @@ public class BasePage {
 			return false;
 		}
 	}
+
+	public boolean isElementUndisplayed(WebDriver driver, String locator, String... dynamicValue) {
+		overrideGlobalTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
+		List<WebElement> elements = getListWebElement(driver, getDynamicXpath(locator, dynamicValue));
+
+		overrideGlobalTimeout(driver, GlobalConstants.LONG_TIMEOUT);
+
+		if(elements.size() == 0) {
+			return true;
+		}else if(elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 	
 	private void overrideGlobalTimeout(WebDriver driver, long timeOut) {
 		driver.manage().timeouts().implicitlyWait(timeOut, TimeUnit.SECONDS);
@@ -384,6 +401,19 @@ public class BasePage {
 	public void removeAttributeInDOM(WebDriver driver, String locatorType, String attributeRemove) {
 		jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].removeAttribute('"+ attributeRemove +"');", getWebElement(driver, locatorType));
+	}
+
+	@Step("Verify jquery ajax load success")
+	public boolean isJQueryAjaxLoadSuccess(WebDriver driver){
+		explicitWait = new WebDriverWait(driver, shortTime);
+		jsExecutor = (JavascriptExecutor) driver;
+		ExpectedCondition<Boolean> JQueryLoad = new ExpectedCondition<Boolean>() {
+			@Override
+			public Boolean apply(WebDriver driver) {
+				return (Boolean)  jsExecutor.executeScript("return (window.jQuery != null) && (jQuery.active === 0);");
+			}
+		};
+		return explicitWait.until(JQueryLoad);
 	}
 	
 	public boolean areJQueryAndJSLoadedSuccess(WebDriver driver) {
@@ -559,8 +589,8 @@ public class BasePage {
 
 	@Step("Open navigate page {1} in top PC ")
 	public void openSubMenuPageTopPC(WebDriver driver, String menuPageName, String subMenuPage) {
-		waitForElementClickable(driver, BasePageUI.DYNAMIC_OPEN_SUB_MENU_TOP_ON_PC_BY_TEXT, menuPageName);
-		clickToElement(driver, BasePageUI.DYNAMIC_OPEN_SUB_MENU_TOP_ON_PC_BY_TEXT, menuPageName);
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_OPEN_MENU_TOP_ON_PC_BY_TEXT, menuPageName);
+		hoverMouseToElement(driver, BasePageUI.DYNAMIC_OPEN_MENU_TOP_ON_PC_BY_TEXT, menuPageName);
 		
 		waitForElementClickable(driver, BasePageUI.DYNAMIC_OPEN_SUB_MENU_TOP_ON_PC_BY_TEXT, subMenuPage);
 		clickToElement(driver, BasePageUI.DYNAMIC_OPEN_SUB_MENU_TOP_ON_PC_BY_TEXT, subMenuPage);
@@ -638,5 +668,16 @@ public class BasePage {
 			e.printStackTrace();
 		}
 	}
-	
+
+	@Step("Verify is display to {1} Link")
+	public boolean isDisplayNextIcon(WebDriver driver, String namePaging) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_CLICK_TO_LINK, namePaging);
+		return isElementDisplayed(driver, BasePageUI.DYNAMIC_CLICK_TO_LINK, namePaging);
+	}
+
+	@Step("Verify is display paging")
+	public boolean isDisplayPaging(WebDriver driver, String pager) {
+		waitForElementInvisible(driver, BasePageUI.DYNAMIC_PAGING, pager);
+		return isElementUndisplayed(driver, BasePageUI.DYNAMIC_CLICK_TO_LINK, pager);
+	}
 }

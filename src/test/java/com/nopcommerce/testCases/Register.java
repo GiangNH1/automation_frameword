@@ -36,11 +36,11 @@ public class Register extends BaseTest {
         driver = getBrowserDriverManager(browserName, url);
         dataFaker = DataFaker.getData();
 
-        emailAddress = dataFaker.getEmail();
+        emailAddress = "giangauto"+dataFaker.getEmail();
         password = dataFaker.getPassword();
         firstName = dataFaker.getFirstName();
         lastName = dataFaker.getLastName();
-        day = "10"; month= "January"; year = "1998";
+        day = "1"; month= "January"; year = "1998";
 
         homePage = PageGeneratorManager.getHomePage(driver);
     }

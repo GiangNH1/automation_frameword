@@ -36,7 +36,7 @@ public class MyAccount extends BaseTest {
         driver = getBrowserDriverManager(browserName, url);
         dataFaker = DataFaker.getData();
 
-        emailAddress = dataFaker.getEmail();
+        emailAddress = "giangauto"+dataFaker.getEmail();
         passwordOld = Register.password;
         passwordNew = dataFaker.getPassword();
         firstName = dataFaker.getFirstName(); lastName = dataFaker.getLastName(); day = "1"; month= "January"; year = "2000"; gender = "Female";

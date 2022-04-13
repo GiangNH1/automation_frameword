@@ -27,6 +27,6 @@ public class BasePageUI {
 	public static final String DYNAMIC_BUTTON_BY_TEXT = "xpath=//div[@class='%s']//button[text()='%s']";
 	public static final String UPLOAD_FILE = "xpath=//input[@type='file']";
 	public static final String DYNAMIC_GET_TEXT_MESSAGE_ERROR = "xpath=//span[@id='%s']";
-
+	public static final String DYNAMIC_PAGING = "xpath=//div[@class='products-container']//div[@class='%s']";
 
 }
