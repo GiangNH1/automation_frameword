@@ -39,4 +39,16 @@ public class PageGeneratorManager {
 	public static NotebooksPO getNotebooksPage(WebDriver driver) {
 		return new NotebooksPO(driver);
 	}
+
+	public static ProductDetailPO getProductDetailPage(WebDriver driver) {
+		return new ProductDetailPO(driver);
+	}
+
+	public static WishListPO getWishListPage(WebDriver driver) {
+		return new WishListPO(driver);
+	}
+
+	public static ShoppingCartPO getShoppingCartPage(WebDriver driver) {
+		return new ShoppingCartPO(driver);
+	}
 }

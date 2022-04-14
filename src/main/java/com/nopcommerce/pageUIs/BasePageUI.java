@@ -16,17 +16,22 @@ public class BasePageUI {
 
 	public static final String CLICK_BUTTON = "xpath=//span[contains(text(),'Login')]//parent::button";
 	public static final String DYNAMIC_TEXTBOX_BY_ID = "xpath=//input[@id='%s']";
+	public static final String DYNAMIC_CHECKBOX_BY_NAME = "xpath=//input[@name='%s']";
 	public static final String DYNAMIC__SELECTED_DEFAULT_DROPDOW_BY_NAME = "xpath=//select[@name='%s']";
 	public static final String DYNAMIC_OPEN_MENU_TOP_ON_PC_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//a[text()='%s']";
 	public static final String DYNAMIC_OPEN_SUB_MENU_TOP_ON_PC_BY_TEXT = "xpath=//ul[@class='top-menu notmobile']//ul[@class='sublist first-level']//a[text()='%s']";
 	public static final String DYNAMIC_OPEN_SUB_MENU_FOOTER_BY_TEXT = "xpath=//div[contains(@class,'footer-block')]//a[text()='%s']";
 	public static final String DYNAMIC_CLICK_TO_LINK = "xpath=//a[contains(string(),'%s')]";
 	public static final String DYNAMIC_ENTER_TEXTBOX_BY_NAME = "xpath=//input[@name='%s']";
-	public static final String DYNAMIC_SELETED_CUSTOM_PARENT = "xpath=//label[contains(text(),'%s')]//following-sibling::span//span[@role='combobox']";
-	public static final String DYNAMIC_SELETED_CUSTOM_CHILD = "xpath=//li[contains(@class,'select2-results__option')]";
+	public static final String DYNAMIC_SELECTED_CUSTOM_PARENT = "xpath=//label[contains(text(),'%s')]//following-sibling::span//span[@role='combobox']";
+	public static final String DYNAMIC_SELECTED_CUSTOM_CHILD = "xpath=//li[contains(@class,'select2-results__option')]";
 	public static final String DYNAMIC_BUTTON_BY_TEXT = "xpath=//div[@class='%s']//button[text()='%s']";
 	public static final String UPLOAD_FILE = "xpath=//input[@type='file']";
 	public static final String DYNAMIC_GET_TEXT_MESSAGE_ERROR = "xpath=//span[@id='%s']";
 	public static final String DYNAMIC_PAGING = "xpath=//div[@class='products-container']//div[@class='%s']";
+	public static final String DYNAMIC_PRODUCT_NAME = "xpath=//div[@class='product-name']//h1";
+	public static final String CLICK_CLOSE_MESSAGE = "xpath=//span[@class='close']";
+	public static final String GET_TITLE_PAGE = "xpath=//div[@class='page-title']/h1";
+	public static final String DYNAMIC_PRODUCT_NAME_ADD_TO_WISHLIST = "xpath=//table[@class='cart']/tbody/tr/td/a[text()='%s']";
 
 }

@@ -68,7 +68,7 @@ public class Login extends BaseTest {
 
     @Description("Login Empty Data")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_01_Login_Empty_Data() {
         homePage.clickToLinkPage(driver, "Log in");
 
@@ -85,7 +85,7 @@ public class Login extends BaseTest {
 
     @Description("Login Invalid Email")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_02_Login_Invalid_Email(){
         homePage.clickToLinkPage(driver, "Log in");
 
@@ -100,7 +100,7 @@ public class Login extends BaseTest {
 
     @Description("Login Email Not Register")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_03_Login_Email_Not_Register(){
         homePage.clickToLinkPage(driver, "Log in");
 
@@ -116,7 +116,7 @@ public class Login extends BaseTest {
 
     @Description("Login Email Registered Password Empty")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_04_Login_Email_Registered_Password_Empty(){
         homePage.clickToLinkPage(driver, "Log in");
 
@@ -133,7 +133,7 @@ public class Login extends BaseTest {
 
     @Description("Login Email Registered Invalid Password")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_05_Login_Email_Registered_Invalid_Password(){
         homePage.clickToLinkPage(driver, "Log in");
 

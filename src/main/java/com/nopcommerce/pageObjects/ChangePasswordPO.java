@@ -26,10 +26,4 @@ public class ChangePasswordPO extends BasePage {
         return getElementText(driver, ChangePasswordPageUI.GET_TEXT_CHANGE_PASSWORD);
     }
 
-    @Step("click to close message button")
-    public void clickCloseMessage(){
-        waitForElementClickable(driver, ChangePasswordPageUI.CLICK_CLOSE_MESSAGE);
-        clickToElement(driver, ChangePasswordPageUI.CLICK_CLOSE_MESSAGE);
-    }
-
 }

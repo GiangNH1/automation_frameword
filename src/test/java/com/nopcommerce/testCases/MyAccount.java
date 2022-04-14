@@ -166,7 +166,7 @@ public class MyAccount extends BaseTest {
 
         verifyEquals(changePasswordPage.getTextChangePassword(), "Password was changed");
 
-        changePasswordPage.clickCloseMessage();
+        changePasswordPage.clickCloseMessage(driver);
 
         changePasswordPage.deleteAllCookie(driver);
 

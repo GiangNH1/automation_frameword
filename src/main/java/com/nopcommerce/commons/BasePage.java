@@ -6,7 +6,6 @@ import java.util.concurrent.TimeUnit;
 
 import com.nopcommerce.pageUIs.BasePageUI;
 import io.qameta.allure.Step;
-import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -608,6 +607,12 @@ public class BasePage {
 		clickToElement(driver, BasePageUI.DYNAMIC_CLICK_TO_LINK, linkPageName);
 	}
 
+	@Step("click to close message button")
+	public void clickCloseMessage(WebDriver driver){
+		waitForElementClickable(driver, BasePageUI.CLICK_CLOSE_MESSAGE);
+		clickToElement(driver, BasePageUI.CLICK_CLOSE_MESSAGE);
+	}
+
 	@Step("Enter to text box with {2}")
 	public void enterToTextBoxByID(WebDriver driver, String textBoxID, String value) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_ENTER_TEXTBOX_BY_NAME, textBoxID);
@@ -616,7 +621,7 @@ public class BasePage {
 
 	@Step("Selected custom to {2} Drop Dow")
 	public void selectedItemCustomByName(WebDriver driver, String seletedLabel, String value) {
-		selectItemInCustomDropDow(driver, BasePageUI.DYNAMIC_SELETED_CUSTOM_PARENT, BasePageUI.DYNAMIC_SELETED_CUSTOM_CHILD, value, seletedLabel);
+		selectItemInCustomDropDow(driver, BasePageUI.DYNAMIC_SELECTED_CUSTOM_PARENT, BasePageUI.DYNAMIC_SELECTED_CUSTOM_CHILD, value, seletedLabel);
 	}
 
 	@Step("Click to {2} Button")
@@ -649,6 +654,12 @@ public class BasePage {
 		unCheckToDefaultCheckboxRadio(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
 	}
 
+	@Step("click to {1} check box")
+	public void clickToCheckedByName(WebDriver driver, String nameCheckbox) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_CHECKBOX_BY_NAME, nameCheckbox);
+		checkToDefaultCheckboxRadio(driver, BasePageUI.DYNAMIC_CHECKBOX_BY_NAME, nameCheckbox);
+	}
+
 	@Step("get message at {1} error")
 	public String getMessageError(WebDriver driver, String idError){
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_GET_TEXT_MESSAGE_ERROR, idError);
@@ -679,5 +690,23 @@ public class BasePage {
 	public boolean isDisplayPaging(WebDriver driver, String pager) {
 		waitForElementInvisible(driver, BasePageUI.DYNAMIC_PAGING, pager);
 		return isElementUndisplayed(driver, BasePageUI.DYNAMIC_CLICK_TO_LINK, pager);
+	}
+
+	@Step("get product name ")
+	public String getProductName(WebDriver driver){
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_PRODUCT_NAME);
+		return getElementText(driver, BasePageUI.DYNAMIC_PRODUCT_NAME);
+	}
+
+	@Step("get title page open")
+	public boolean getTitlePage(WebDriver driver){
+		waitForElementVisible(driver, BasePageUI.GET_TITLE_PAGE);
+		return isElementDisplayed(driver, BasePageUI.GET_TITLE_PAGE);
+	}
+
+	@Step("Verify product remove success")
+	public boolean isProductNameUnDisplay(WebDriver driver, String productName){
+		//waitForElementInvisible(driver, BasePageUI.DYNAMIC_PRODUCT_NAME_ADD_TO_WISHLIST, productName);
+		return isElementUndisplayed(driver, BasePageUI.DYNAMIC_PRODUCT_NAME_ADD_TO_WISHLIST, productName);
 	}
 }

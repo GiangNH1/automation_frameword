@@ -24,8 +24,8 @@ public class Register extends BaseTest {
     private ChangePasswordPO changePasswordPage;
     private DataFaker dataFaker;
 
-    private String  firstName, lastName, day, month, year;
-    public static String emailAddress, password;
+    private String  day, month, year;
+    public static String emailAddress, password, firstName, lastName;
 
     @Description("Pre-condition")
     @Severity(SeverityLevel.NORMAL)
@@ -47,7 +47,7 @@ public class Register extends BaseTest {
 
     @Description("Register Empty Data")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_01_Register_Empty_Data() {
 
         homePage.clickToLinkPage(driver, "Register");
@@ -69,7 +69,7 @@ public class Register extends BaseTest {
 
     @Description("Register Invalid Email")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_02_Register_Invalid_Email() {
         homePage.clickToLinkPage(driver, "Register");
 
@@ -128,6 +128,8 @@ public class Register extends BaseTest {
         registerPage.enterToTextBoxByID(driver, "ConfirmPassword", password);
 
         registerPage.clickToButtonByText(driver, "buttons", "Register");
+        System.out.println(emailAddress);
+        System.out.println(password);
 
         verifyEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
@@ -136,7 +138,7 @@ public class Register extends BaseTest {
 
     @Description("Register Existing Email")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_04_Register_Existing_Email() {
         homePage.clickToLinkPage(driver, "Register");
 
@@ -163,12 +165,13 @@ public class Register extends BaseTest {
 
         registerPage.clickToButtonByText(driver, "buttons", "Register");
 
+
         verifyEquals(registerPage.getErrorExistingEmailMessageTextBox(), "The specified email already exists");
     }
 
     @Description("Register Password Less Than 6 Chars")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_05_Register_Password_Less_Than_6_Chars() {
         homePage.clickToLinkPage(driver, "Register");
 
@@ -201,7 +204,7 @@ public class Register extends BaseTest {
 
     @Description("Register Invalid Confirm Password")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_06_Register_Invalid_Confirm_Password() {
         homePage.clickToLinkPage(driver, "Register");
 

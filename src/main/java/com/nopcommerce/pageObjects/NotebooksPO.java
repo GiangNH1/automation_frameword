@@ -12,9 +12,14 @@ import java.util.List;
 
 public class NotebooksPO extends BasePage {
     private WebDriver driver;
+    public String productName;
 
     public NotebooksPO(WebDriver driver){
         this.driver = driver;
+    }
+
+    public NotebooksPO getNotebooksPage(WebDriver driver){
+        return new NotebooksPO(driver);
     }
 
     @Step("Verify product sort by name A - Z")
@@ -134,4 +139,16 @@ public class NotebooksPO extends BasePage {
         }
         return isProduct;
     }
+
+    @Step("Click to product random")
+    public void clickToProductRanDom() {
+        waitForElementVisible(driver, NotebooksPageUI.PRODUCT_LIST);
+        int productSize = getElementSize(driver, NotebooksPageUI.PRODUCT_LIST);
+        int random_int = (int)(Math.random() * (productSize - 1 + 1) + 1);
+
+        productName = getElementText(driver, NotebooksPageUI.CLICK_TO_PRODUCT_RANDOM, String.valueOf(random_int));
+
+        clickToElement(driver, NotebooksPageUI.CLICK_TO_PRODUCT_RANDOM, String.valueOf(random_int));
+    }
+
 }

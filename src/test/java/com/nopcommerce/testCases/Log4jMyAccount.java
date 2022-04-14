@@ -200,7 +200,7 @@ public class Log4jMyAccount extends BaseTest {
         verifyEquals(changePasswordPage.getTextChangePassword(), "Password was changed");
 
         log.info("Change Password - step 08: Click close Message");
-        changePasswordPage.clickCloseMessage();
+        changePasswordPage.clickCloseMessage(driver);
 
         log.info("Change Password - step 09: Deleted all cookie");
 //        homePage = PageGeneratorManager.getHomePage(driver);
