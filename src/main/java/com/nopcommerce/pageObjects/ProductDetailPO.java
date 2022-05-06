@@ -12,12 +12,4 @@ public class ProductDetailPO extends BasePage {
     public ProductDetailPO(WebDriver driver){
         this.driver = driver;
     }
-
-    @Step("Verify notification message display")
-    public boolean isNotificationMessage() {
-        waitForElementVisible(driver, ProductDetailPageUI.NOTIFICATION_SUCCESS);
-        return isElementDisplayed(driver, ProductDetailPageUI.NOTIFICATION_SUCCESS);
-    }
-
-
 }

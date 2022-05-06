@@ -12,13 +12,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class WishList extends BaseTest {
+public class Compare extends BaseTest {
     private WebDriver driver;
     private HomePO homePage;
     private LoginPO loginPage;
     private NotebooksPO notebooksPage;
-    private ProductDetailPO productDetailPage;
+    private WishlistComparePO wishlistComparePage;
     private WishListPO wishListPage;
+    private ComparePO comparePage;
     private ShoppingCartPO shoppingCartPage;
     public static String productName;
 
@@ -39,41 +40,41 @@ public class WishList extends BaseTest {
 
     }
 
-    @Description("Add To Wish List")
+    @Description("Add To Compare List")
     @Severity(SeverityLevel.NORMAL)
     @Test
-    public void TC_01_Add_To_WishList(){
+    public void TC_01_Add_To_Compare_List(){
         homePage.openSubMenuPageTopPC(driver, "Computers ", "Notebooks ");
-        notebooksPage = PageGeneratorManager.getNotebooksPage(driver);
+        wishlistComparePage = PageGeneratorManager.getWishListComparePage(driver);
 
-        notebooksPage.clickToProductRanDom();
+        wishlistComparePage.clickToButtonCompareListRanDom();
+        verifyTrue(wishlistComparePage.isJQueryAjaxLoadSuccess(driver));
 
-        verifyEquals(notebooksPage.getProductName(driver),notebooksPage.productName);
+        verifyTrue(wishlistComparePage.isNotificationMessage(driver));
 
+        wishlistComparePage.clickCloseMessage(driver);
 
-        productDetailPage = PageGeneratorManager.getProductDetailPage(driver);
-        productDetailPage.clickToButtonByText(driver, "add-to-wishlist", "Add to wishlist");
+        wishlistComparePage.clickToButtonCompareListRanDom2();
+        verifyTrue(wishlistComparePage.isJQueryAjaxLoadSuccess(driver));
 
-        verifyTrue(notebooksPage.isJQueryAjaxLoadSuccess(driver));
+        verifyTrue(wishlistComparePage.isNotificationMessage(driver));
 
-        verifyTrue(productDetailPage.isNotificationMessage(driver));
+        wishlistComparePage.clickToLinkPage(driver, "product comparison");
 
-        productDetailPage.clickCloseMessage(driver);
+        verifyTrue(wishlistComparePage.isDisplayProductNameCompareListPage(wishlistComparePage.productName1));
+        verifyTrue(wishlistComparePage.isDisplayProductNameCompareListPage(wishlistComparePage.productName2));
+        verifyTrue(wishlistComparePage.isDisplayProductPriceCompareListPage(wishlistComparePage.priceP1));
+        verifyTrue(wishlistComparePage.isDisplayProductPriceCompareListPage(wishlistComparePage.priceP2));
 
-        productDetailPage.clickToLinkPage(driver, "Wishlist");
+        wishlistComparePage.clickToLinkPage(driver, "Clear list");
 
-        wishListPage = PageGeneratorManager.getWishListPage(driver);
-        verifyTrue(wishListPage.isProductAddToWishListSuccess(notebooksPage.productName));
-
-        wishListPage.clickToViewWishListLink();
-
-        verifyTrue(wishListPage.getTitlePage(driver));
+        verifyEquals(wishlistComparePage.getMessageClearList(), "You have no items to compare.");
 
     }
 
     @Description("Add product to cart from wishlist page")
     @Severity(SeverityLevel.NORMAL)
-    @Test
+    //@Test
     public void TC_02_Add_Product_To_Cart_From_Wishlist() {
         homePage = wishListPage.openHomePage();
         homePage.clickToLinkPage(driver, "Wishlist");
@@ -94,38 +95,7 @@ public class WishList extends BaseTest {
         verifyTrue(wishListPage.isProductNameUnDisplay(driver, notebooksPage.productName));
     }
 
-    @Description("Remove Product in wishlist page")
-    @Severity(SeverityLevel.NORMAL)
-    @Test
-    public void TC_03_Remove_Product_In_Wishlist_Page() {
-        homePage = wishListPage.openHomePage();
-        homePage.openSubMenuPageTopPC(driver, "Computers ", "Notebooks ");
-        notebooksPage = PageGeneratorManager.getNotebooksPage(driver);
 
-        notebooksPage.clickToProductRanDom();
-
-        verifyEquals(notebooksPage.getProductName(driver),notebooksPage.productName);
-
-        productDetailPage = PageGeneratorManager.getProductDetailPage(driver);
-        productDetailPage.clickToButtonByText(driver, "add-to-wishlist", "Add to wishlist");
-
-        verifyTrue(notebooksPage.isJQueryAjaxLoadSuccess(driver));
-
-        verifyTrue(productDetailPage.isNotificationMessage(driver));
-
-        productDetailPage.clickCloseMessage(driver);
-
-        productDetailPage.clickToLinkPage(driver, "Wishlist");
-
-        wishListPage = PageGeneratorManager.getWishListPage(driver);
-        verifyTrue(wishListPage.isProductAddToWishListSuccess(notebooksPage.productName));
-
-        wishListPage.clickToRemoveButton();
-
-        verifyTrue(wishListPage.isProductNameUnDisplay(driver, notebooksPage.productName));
-        //verifyEquals(wishListPage.getMessageWishListIsEmpty(), "The wishlist is empty!");
-
-    }
 
     @Description("Sort Product By Price High To Low")
     @Severity(SeverityLevel.NORMAL)

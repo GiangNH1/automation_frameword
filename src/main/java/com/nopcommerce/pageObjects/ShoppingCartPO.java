@@ -14,12 +14,6 @@ public class ShoppingCartPO extends BasePage {
         this.driver = driver;
     }
 
-    @Step("Verify notification message display")
-    public boolean isNotificationMessage() {
-        waitForElementVisible(driver, ProductDetailPageUI.NOTIFICATION_SUCCESS);
-        return isElementDisplayed(driver, ProductDetailPageUI.NOTIFICATION_SUCCESS);
-    }
-
     @Step("Verify product name add to wish list success")
     public boolean isProductAddToCartSuccess(String productName) {
         waitForElementVisible(driver, ShoppingCartPageUI.DYNAMIC_PRODUCT_NAME_ADD_TO_CART, productName);

@@ -151,4 +151,19 @@ public class NotebooksPO extends BasePage {
         clickToElement(driver, NotebooksPageUI.CLICK_TO_PRODUCT_RANDOM, String.valueOf(random_int));
     }
 
+    @Step("Click to button compare random")
+    public void clickToButtonCompareListRanDom() {
+        waitForElementVisible(driver, NotebooksPageUI.PRODUCT_LIST);
+        int productSize = getElementSize(driver, NotebooksPageUI.PRODUCT_LIST);
+        int random_int = (int)(Math.random() * (productSize - 1 + 1) + 1);
+
+        productName = getElementText(driver, NotebooksPageUI.CLICK_TO_PRODUCT_RANDOM, String.valueOf(random_int));
+
+        clickToElement(driver, NotebooksPageUI.CLICK_TO_BUTTON_COMPARE_LIST, String.valueOf(random_int));
+    }
+
+    public void clickToButtonCompareByText(String textButton, String productName) {
+        waitForElementClickable(driver, NotebooksPageUI.CLICK_TO_BUTTON_COMPARE_LIST, textButton, productName);
+        clickToElement(driver, NotebooksPageUI.CLICK_TO_BUTTON_COMPARE_LIST, textButton, productName);
+    }
 }

@@ -33,5 +33,6 @@ public class BasePageUI {
 	public static final String CLICK_CLOSE_MESSAGE = "xpath=//span[@class='close']";
 	public static final String GET_TITLE_PAGE = "xpath=//div[@class='page-title']/h1";
 	public static final String DYNAMIC_PRODUCT_NAME_ADD_TO_WISHLIST = "xpath=//table[@class='cart']/tbody/tr/td/a[text()='%s']";
+	public static final String NOTIFICATION_SUCCESS = "xpath=//div[@class='bar-notification success']";
 
 }

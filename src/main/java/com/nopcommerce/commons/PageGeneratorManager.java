@@ -51,4 +51,8 @@ public class PageGeneratorManager {
 	public static ShoppingCartPO getShoppingCartPage(WebDriver driver) {
 		return new ShoppingCartPO(driver);
 	}
+
+	public static WishlistComparePO getWishListComparePage(WebDriver driver) {
+		return new WishlistComparePO(driver);
+	}
 }

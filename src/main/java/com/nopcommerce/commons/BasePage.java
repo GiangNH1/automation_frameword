@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import com.nopcommerce.pageUIs.BasePageUI;
+import com.nopcommerce.pageUIs.ProductDetailPageUI;
 import io.qameta.allure.Step;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -708,5 +709,11 @@ public class BasePage {
 	public boolean isProductNameUnDisplay(WebDriver driver, String productName){
 		//waitForElementInvisible(driver, BasePageUI.DYNAMIC_PRODUCT_NAME_ADD_TO_WISHLIST, productName);
 		return isElementUndisplayed(driver, BasePageUI.DYNAMIC_PRODUCT_NAME_ADD_TO_WISHLIST, productName);
+	}
+
+	@Step("Verify notification message display")
+	public boolean isNotificationMessage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.NOTIFICATION_SUCCESS);
+		return isElementDisplayed(driver, BasePageUI.NOTIFICATION_SUCCESS);
 	}
 }
